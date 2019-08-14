@@ -1,0 +1,24 @@
+<div class="main">
+    <ul>
+        <li>
+            <a>Tiger Dingsun</a>
+        </li>
+        <li>
+            <a>About</a>
+        </li>
+        <li>
+            Projects
+            <ul>
+                <li *ngFor="let project of projects" 
+                (click)="onSelect(project)" 
+                [class.selected]="project === selectedProject">
+                    <a> {{ project.name }}</a>
+                </li>
+            </ul>
+            
+        </li>
+    </ul>
+   
+    <app-project-description></app-project-description>
+    <app-left-footer></app-left-footer>
+</div>
