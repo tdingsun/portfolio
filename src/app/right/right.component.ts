@@ -16,4 +16,6 @@ export class RightComponent implements OnInit {
     this.projectService.currentProject.subscribe(project => this.project = project);
   }
 
+  
+
 }

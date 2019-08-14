@@ -1,6 +1,17 @@
 .right {
-    width: 50%;
+    width: 65%;
     height: 100vh;
     float: right;
-    background-color: lightgrey;
+    border-width: 0 0 0 0;
+    font-size: 0px;
+}
+
+img {
+    width: 100%;
+    display: inline-block;
+}
+
+iframe {
+    width: 65vw;
+    height: 40.625vw;
 }

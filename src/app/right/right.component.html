@@ -1,3 +1,4 @@
 <div class="right" *ngIf="project">
-    <p *ngFor="let img of project.imgs"> {{img}}</p>
+    <iframe src="https://player.vimeo.com/video/315496159" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <img *ngFor="let img of project.imgs" src="../../assets/{{project.imgRoot}}/{{img}}">
 </div>

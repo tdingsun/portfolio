@@ -11,6 +11,8 @@ import { ProjectService } from '../project.service';
 export class LeftComponent implements OnInit {
   projects: Project[];
   selectedProject: Project;
+  showAbout = false;
+  aboutimgs = ['0.png'];
 
   constructor(private projectService: ProjectService) { }
 
@@ -30,6 +32,17 @@ export class LeftComponent implements OnInit {
   onSelect(project: Project): void {
     this.selectedProject = project;
     this.projectService.setSelectedProject(this.selectedProject);
+    this.showAbout = false;
+  }
+
+  aboutClicked() {
+    this.projectService.setSelectedProject(null);
+    this.selectedProject = null;
+    if(this.showAbout == false){
+      this.showAbout = true;
+    } else {
+      this.showAbout = false;
+    }
   }
 
 }

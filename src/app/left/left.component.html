@@ -1,24 +1,29 @@
+<div class="about-images" *ngIf="showAbout">
+    <img *ngFor="let img of aboutimgs" src="../../assets/about/{{img}}">
+</div>
+
+
 <div class="main">
-    <ul>
-        <li>
-            <a>Tiger Dingsun</a>
-        </li>
-        <li>
-            <a>About</a>
-        </li>
-        <li>
-            Projects
-            <ul>
+    <div (click)="aboutClicked()">
+        <p>About Tiger Dingsun</p>
+        <div class="blockquote" *ngIf="showAbout">
+            <p>
+                This is the description
+            </p>
+        </div>
+        
+    </div>
+    <div>
+        <p>Projects</p>
+        <ul>
                 <li *ngFor="let project of projects" 
                 (click)="onSelect(project)" 
                 [class.selected]="project === selectedProject">
                     <a> {{ project.name }}</a>
                 </li>
-            </ul>
-            
-        </li>
-    </ul>
+        </ul>
+    </div>
+
    
-    <app-project-description></app-project-description>
     <app-left-footer></app-left-footer>
 </div>
