@@ -7,21 +7,26 @@
 
 #footer-left {
     width: 50%;
-    height: 100%;
+    min-height: 120px;
     position: relative;
     float: left;
     border-width: 0 0 0 0;
-    word-break: break-all;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 #footer-right {
     width: 50%;
-    height: 100%;
+    min-height: 120px;
     position: relative;
     float: right;
     border-width: 0 0 0 1px;
     word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 p {

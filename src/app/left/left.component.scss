@@ -1,4 +1,4 @@
-.main {
+#main {
     width: 35%;
     height: 100vh;
     position: fixed;
@@ -6,7 +6,7 @@
 }
 
 .selected {
-    color: red;
+    color: black;
 }
 
 div {
@@ -19,8 +19,14 @@ p {
 }
 
 ul {
-    list-style: lower-alpha outside;
+    list-style: circle outside;
     margin: 0 0 10px 0;
+}
+
+li {
+    &:hover {
+        color: grey;
+    }
 }
 
 .blockquote {
@@ -28,9 +34,19 @@ ul {
     border-width: 0;
 }
 
-.about-images {
+#about-images {
     border-width: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 100vh;
+
+    & img {
+        max-width: 500px;
+        float: right;
+    }
+}
+
+#projects-container {
+    height: calc(45vh - 28px);
+    overflow-y: scroll;
 }

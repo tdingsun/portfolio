@@ -4,5 +4,7 @@ export class Project {
     season: string;
     imgRoot: string;
     imgs: string[];
+    hasVideo: boolean;
+    videoLinks: string[];
     description: string[];
 }

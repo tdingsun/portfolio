@@ -9,10 +9,12 @@ import { ProjectService } from '../project.service';
 })
 export class ProjectDescriptionComponent implements OnInit {
   project: Project;
+  allowedHeight: number;
   constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
     this.projectService.currentProject.subscribe(project => this.project = project);
+    
   }
 
 }

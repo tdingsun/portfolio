@@ -23,3 +23,27 @@ p {
     border-color: $main-color;
     border-style: dotted;
 }
+
+.lightBox {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    right: 0;
+    top: 0;
+    & img {
+        border: 1px dotted $main-color;
+        height: 100%;
+        width: auto!important;
+    }
+}
+
+iframe {
+    width: 65vw;
+    height: 40.625vw;
+    border-color: $main-color;
+    border-style: dotted;
+    border-width: 0 0 1px 0;
+}
