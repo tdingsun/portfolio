@@ -3,10 +3,11 @@
     height: 100vh;
     position: fixed;
     border-width: 0 1px 0 0;
+    //background-color: rgba(255, 255, 255, 0.5);
 }
 
 .selected {
-    color: black;
+    font-style: italic;
 }
 
 div {
@@ -25,7 +26,8 @@ ul {
 
 li {
     &:hover {
-        color: grey;
+        font-style: italic;
+        cursor: pointer;
     }
 }
 
@@ -41,7 +43,11 @@ li {
     height: 100vh;
 
     & img {
-        max-width: 500px;
+        height: auto!important;
+        width: auto!important;
+        max-width: 100vw;
+        max-height: 100vh;
+        object-fit: contain;
         float: right;
     }
 }
@@ -49,4 +55,17 @@ li {
 #projects-container {
     height: calc(45vh - 28px);
     overflow-y: scroll;
+    background-color: white;
+}
+
+#about-container {
+    cursor: pointer;
+    background-color: white;
+    
+}
+
+#about-hook {
+    &:hover {
+        font-style: italic;
+    }
 }

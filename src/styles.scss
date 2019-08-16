@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-$main-color: green;
+$main-color: cornflowerblue;
 
 body, html {
     margin: 0;
@@ -12,7 +12,6 @@ div {
     border-color: $main-color;
     border-style: dotted;
     border-width: 0;
-    background-color: transparent;
     box-sizing: border-box;
 }
 
@@ -34,9 +33,12 @@ p {
     right: 0;
     top: 0;
     & img {
-        border: 1px dotted $main-color;
-        height: 100%;
+        height: auto!important;
         width: auto!important;
+        max-width: 100vw;
+        max-height: 100vh;
+        object-fit: contain;
+
     }
 }
 
@@ -46,4 +48,16 @@ iframe {
     border-color: $main-color;
     border-style: dotted;
     border-width: 0 0 1px 0;
+}
+
+a {
+    color: $main-color;
+    &:hover {
+        font-style: italic;
+    }
+}
+
+blockquote {
+    margin-bottom: 0;
+    margin-top: 0;
 }

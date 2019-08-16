@@ -1,3 +1,3 @@
 <div class="project-description" *ngIf="project">
-    <p *ngFor="let p of project.description">{{p}}</p>
+    <p *ngFor="let p of project.description" [innerHTML]=p></p>
 </div>

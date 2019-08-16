@@ -13,13 +13,14 @@ export class LeftComponent implements OnInit {
   projects: Project[];
   selectedProject: Project;
   showAbout = false;
-  aboutimgs = ['1.png', '2.jpg', '3.jpg', '4.jpg'];
+  aboutimgs = [];
 
   constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
     this.getProjects();
     this.getSelectedProject();
+    this.aboutimgs = this.shuffleImages();
   }
 
   getProjects(): void {
@@ -44,6 +45,19 @@ export class LeftComponent implements OnInit {
     } else {
       this.showAbout = false;
     }
+  }
+
+  shuffleImages(): string[] {
+    var array = [];
+    for (let i = 1; i <= 26; i++){
+      array.push(i + ".jpg");
+    }
+    for (let i = array.length -1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+
+    return array;
   }
 
 }
