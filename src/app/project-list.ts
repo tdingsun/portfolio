@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
             '1.jpg',
         ],
         hasVideo: true,
-        videoLinks: ['http://tdingsun.github.io/dp/'],
+        videoLinks: ['https://tdingsun.github.io/dp/'],
         description: [
             "<a href='http://tdingsun.github.io/dp/'>A series of 18 websites</a> that explore different ways of presenting text, narrative, and poetry in digital space. Can text be ambient? Non-linear? Performed by a website? Performed by user interaction?"
         ],
@@ -174,14 +174,14 @@ export const PROJECTS: Project[] = [
             '18.jpg'
         ],
         hasVideo: true,
-        videoLinks: ['http://tdingsun.github.io/documenta/'],
+        videoLinks: ['https://tdingsun.github.io/documenta/'],
         description: [
             "A multi-media speculative branding system for the art festival documenta, for the year 2022. documenta is known for being a reflection of the politics of the contemporary art world.",
 
             "However, documenta 14, which happened in 2017 and took place in both Kassel, Germany and Athens, Greece, was critiqued for it's neocolonial undertones and condescending attitude towards Athens (the Athens portion of the exhibit was called Learning from Athens). Its theory was pristine -- documenta 14 featured many works addressing issues ranging from the refugee crisis to transgender rights. But what does it mean for a Western European institution to depict (and generate revenue from) the suffering of marginalized bodies?",
             "Although I am not so naive to think that a branding system can do much to answer this question, I chose to use the branding as a platform to engage in self-reflective institutional critique. I used a stock image of the ocean and a bright red, constantly shifting '15' as my central visual identity. The ocean both ties into issues of climate change and human displacement, as well as the relationship that these two things have. The '15' points to the instability and constant shifting of geographical, political, and social borders, and the risks people take to cross them.",
             
-            "The <a href='http://tdingsun.github.io/documenta/'>website</a> situates the user in the middle of an expansive canvas. The user can then scroll in all directions to find the relevant information about documenta. The large red '15' in the middle is an Easter egg -- the user can click and hold on it to distort its edges."
+            "The <a href='https://tdingsun.github.io/documenta/'>website</a> situates the user in the middle of an expansive canvas. The user can then scroll in all directions to find the relevant information about documenta. The large red '15' in the middle is an Easter egg -- the user can click and hold on it to distort its edges."
         ],
     },
 
@@ -461,7 +461,7 @@ export const PROJECTS: Project[] = [
             '29.jpg'
         ],
         hasVideo: true,
-        videoLinks: ['http://tdingsun.github.io/ds2_final/'],
+        videoLinks: ['https://tdingsun.github.io/ds2_final/'],
         description: [
             "This is a collection of text and image fragments that all center around whiteness and race. The writing is original, and the images are taken from the internet. The project takes on two forms:",
             "a <a href='http://tdingsun.github.io/ds2_final/'>web-based archive</a> through which viewers can drag around and flip virtual cards, and a physical archive consisting of various print media.",
@@ -489,7 +489,7 @@ export const PROJECTS: Project[] = [
             '10.jpg'
         ],
         hasVideo: true,
-        videoLinks: ["http://tdingsun.github.io/otm/index.html"],
+        videoLinks: ["https://tdingsun.github.io/otm/index.html"],
         description: [
             "A multi-medium rebranding project.",
 
