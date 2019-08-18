@@ -1,3 +1,3 @@
-<div class="project-description" *ngIf="project">
+<div class="project-description" *ngIf="project && project.description">
     <p *ngFor="let p of project.description" [innerHTML]=p></p>
 </div>

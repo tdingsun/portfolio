@@ -1,11 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'mixins';
+
 $main-color: cornflowerblue;
+
 
 body, html {
     margin: 0;
     padding: 0;
     color: $main-color;
     font-family: sans-serif;
+    @include for-size(phone-only) {
+        font-size: 14px;
+    }
 }
 
 div {
@@ -24,6 +30,7 @@ p {
 }
 
 .lightBox {
+    z-index: 999;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -48,6 +55,11 @@ iframe {
     border-color: $main-color;
     border-style: dotted;
     border-width: 0 0 1px 0;
+
+    @include for-size(phone-only) {
+        width: 100vw;
+        height: 67.708vw;
+    }
 }
 
 a {
@@ -60,4 +72,16 @@ a {
 blockquote {
     margin-bottom: 0;
     margin-top: 0;
+}
+
+#scrollUpBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: $main-color;
+
+    @include for-size(phone-only) {
+        bottom: 10px;
+        right: 10px;
+    }
 }

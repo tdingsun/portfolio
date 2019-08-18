@@ -9,6 +9,7 @@ import { ProjectService } from '../project.service';
 })
 export class LeftFooterComponent implements OnInit {
   project: Project;
+  footerHeight: string;
 
   constructor(private projectService: ProjectService) { }
 

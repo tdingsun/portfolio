@@ -20,7 +20,7 @@ export class LeftComponent implements OnInit {
   ngOnInit() {
     this.getProjects();
     this.getSelectedProject();
-    this.aboutimgs = this.shuffleImages();
+    this.shuffleImages();
   }
 
   getProjects(): void {
@@ -47,9 +47,9 @@ export class LeftComponent implements OnInit {
     }
   }
 
-  shuffleImages(): string[] {
+  shuffleImages(): void {
     var array = [];
-    for (let i = 1; i <= 26; i++){
+    for (let i = 1; i <= 27; i++){
       array.push(i + ".jpg");
     }
     for (let i = array.length -1; i > 0; i--) {
@@ -57,7 +57,7 @@ export class LeftComponent implements OnInit {
       [array[i], array[j]] = [array[j], array[i]];
     }
 
-    return array;
+    this.aboutimgs = array;
   }
 
 }

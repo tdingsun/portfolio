@@ -1,3 +1,5 @@
+@import '../../mixins';
+
 .project-description {
     background-color: white;
     width: 100%;
@@ -5,6 +7,10 @@
     overflow-y: scroll;
     border-width: 0 0 1px 0;
     padding: 10px;
+    @include for-size(phone-only){
+        height: auto;
+        max-height: 30vh;
+    }
 }
 
 p {

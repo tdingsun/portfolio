@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
         ],
         hasVideo: false,
         videoLinks: [],
-        description: [],
+        description: null,
     },
 
     {   name: 'I Never Want to See the Same Image Twice',

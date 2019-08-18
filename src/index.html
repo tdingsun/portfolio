@@ -11,4 +11,27 @@
 <body>
   <app-root></app-root>
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+        $('li').click(function() {
+          changePadding();
+          window.scrollTo(0, 0);
+        });
+        $(window).resize(changePadding);
+      });
+    
+      function changePadding() {
+          if(window.innerWidth < 599){
+            $('.right').css("padding-bottom", $('#footer').height());
+          } else {
+            $('.right').css("padding-bottom", 0);
+          }
+      }
+      
+    </script> 
 </html>
+

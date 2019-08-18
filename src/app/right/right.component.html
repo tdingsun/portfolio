@@ -1,4 +1,4 @@
-<div class="right" *ngIf="project">
+<div class="right" *ngIf="project" [style.padding-bottom]="padding">
     <div *ngIf="project.hasVideo">
         <iframe  *ngFor="let link of project.videoLinks" [src]="link | safe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
@@ -7,4 +7,6 @@
     <div class="lightBox" *ngIf="selectedImg" [@inOutAnimation] (click)="onClickLightBox()">
         <img src="../../assets/{{project.imgRoot}}/{{selectedImg}}">
     </div>
+
+    <button id="scrollUpBtn" (click)="scrollUp()">↑</button>
 </div>

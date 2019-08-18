@@ -1,9 +1,18 @@
+@import '../../mixins';
+
 #main {
     width: 35%;
     height: 100vh;
     position: fixed;
     border-width: 0 1px 0 0;
     //background-color: rgba(255, 255, 255, 0.5);
+
+    @include for-size(phone-only){
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
 }
 
 .selected {
@@ -56,6 +65,11 @@ li {
     height: calc(45vh - 28px);
     overflow-y: scroll;
     background-color: white;
+
+    @include for-size(phone-only){
+        height: auto;
+    }
+
 }
 
 #about-container {

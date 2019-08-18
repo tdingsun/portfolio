@@ -1,9 +1,17 @@
+@import '../../mixins';
+
 .right {
     width: 65%;
     height: 100vh;
     float: right;
     border-width: 0 0 0 0;
     font-size: 0px;
+
+    @include for-size(phone-only){
+        float: none;
+        width: 100%;
+        height: auto;
+    }
 }
 
 img {
@@ -11,5 +19,4 @@ img {
     display: inline-block;
     cursor: pointer;
 }
-
 
