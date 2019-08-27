@@ -12,6 +12,7 @@ export const PROJECTS: Project[] = [
             '4.jpg',
             'a.jpg',
             'b.jpg',
+            'c.jpg',
             '5.jpg',
             '6.jpg',
             '7.jpg',
