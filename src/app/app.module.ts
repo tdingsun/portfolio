@@ -8,6 +8,9 @@ import { LeftFooterComponent } from './left-footer/left-footer.component';
 import { ProjectDescriptionComponent } from './project-description/project-description.component';
 import { RightComponent } from './right/right.component';
 import { SafePipe } from './safe.pipe';
+import { LazyloadDirective } from './lazyload.directive';
+import { StaticImgComponent } from './static-img/static-img.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +19,9 @@ import { SafePipe } from './safe.pipe';
     LeftFooterComponent,
     ProjectDescriptionComponent,
     RightComponent,
-    SafePipe
+    SafePipe,
+    LazyloadDirective,
+    StaticImgComponent
   ],
   imports: [
     BrowserModule,

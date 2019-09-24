@@ -6,38 +6,14 @@ export const PROJECTS: Project[] = [
         season: 'Ongoing',
         imgRoot: 'misc-posters',
         imgs: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
-            'a.jpg',
-            'b.jpg',
-            'c.jpg',
-            '5.jpg',
-            '6.jpg',
-            '7.jpg',
-            '8.jpg',
-            '9.jpg',
-            '10.jpg',
-            '11.jpg',
-            '12.jpg',
-            '13.jpg',
-            '14.jpg',
-            '15.jpg',
-            '16.jpg',
-            '17.jpg',
-            '18.jpg',
-            '19.jpg',
-            '20.jpg',
-            '21.jpg',
-            '22.jpg',
-            '23.jpg',
-            '24.jpg',
-            '25.jpg',
-            '26.jpg',
-            '27.jpg',
-            '28.jpg',
-            '29.jpg'
+            '1.jpg', 'd.jpg', 'a.jpg', 'b.jpg', '2.jpg', '4.jpg',
+            '3.jpg', 'c.jpg', '5.jpg',
+            '6.jpg', '7.jpg', '8.jpg', '9.jpg',
+            '10.jpg', '11.jpg', '12.jpg', '13.jpg',
+            '14.jpg', '15.jpg', '16.jpg', '17.jpg',
+            '18.jpg', '19.jpg', '20.jpg', '21.jpg',
+            '22.jpg', '23.jpg', '24.jpg', '25.jpg',
+            '26.jpg', '27.jpg', '28.jpg', '29.jpg'
         ],
         hasVideo: false,
         videoLinks: [],
@@ -58,26 +34,90 @@ export const PROJECTS: Project[] = [
         ],
     },
 
+    {
+        name: 'BASC',
+        type: 'Branding',
+        season: 'Summer 2019',
+        imgRoot: 'basc',
+        imgs: [
+            '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'
+        ],
+        hasVideo: false,
+        videoLinks: [],
+        description: [
+            "Branding for the Brown Arts Student Council"
+        ]
+
+    },
+
+    {
+        name: 'Critical Resistance Re-branding',
+        type: 'Branding',
+        season: 'Fall 2018',
+        imgRoot: 'critical-resistance',
+        imgs: [
+            '1.png', 'h.jpg', '2.png', '3.png', '4.png', '5.jpg',
+            'a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg', 'f.jpg',
+            'g.jpg'
+        ],
+        hasVideo: false,
+        videoLinks: [],
+        description: [
+            "A speculative re-branding for the national, grassroots prison abolition organization Critial Resistance, founded by Angela Davis, Ruth Wilson Gilmore, and Rose Braz. The impetus for this re-branding was to generate fresher looking merchandise that would appeal to a Millennial / Gen-Z creative class, in order to reach out and engage with this new demographic, while also generating a profit that could go into prison abolition organizing.",
+
+            "I created a limited run of these T-shirts and tote bags, and donated all of the profits to Critical Resistance.",
+
+            "I also re-designed an existing infographic that Critical Resistance created, focusing on organizing dense information about police reform vs. police abolition in an easy to refer to manner.",
+
+            "More information about CR can be found at  <a href='http://criticalresistance.org' target='_blank'>criticalresistance.org</a>",
+
+            "Special Thanks to <a href='https://rainawellman.com' target='_blank'>Raina Wellman</a> and <a href='https://jayoonlee.com' target='_blank'>Ja Yoon Lee</a> for modeling."
+        ]
+
+    },
+
     {   name: 'Album Posters',
         type: 'Poster',
         season: 'Summer 2018',
         imgRoot: 'album-posters',
         imgs: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
-            '5.jpg',
-            '6.jpg',
-            '7.jpg',
-            '8.jpg',
-            '9.jpg',
-            '10.jpg'
+            '1.jpg', '2.jpg', '3.jpg', '4.jpg',
+            '5.jpg', '6.jpg', '7.jpg', '8.jpg',
+            '9.jpg', '10.jpg'
         ],
         hasVideo: false,
         videoLinks: [],
         description: [
             'Poster Series inspired by my top 10 favorite albums of 2018 (in no particular order).'
+        ],
+    },
+
+    {   name: 'A Degree of Rage, History, Her',
+        type: 'Book',
+        season: 'Spring 2017',
+        imgRoot: 'rage',
+        imgs: [
+            '1.jpg', 'a.gif', '2.jpg', '3.jpg', '4.jpg', 
+            '5.jpg', '6.jpg', '7.jpg', '8.jpg',
+            '9.jpg', '10.jpg', '11.jpg'
+        ],
+        hasVideo: false,
+        videoLinks: [],
+        description: [
+            "<a href='../../assets/rage/a-degree-of-rage.pdf' target='_blank'>Full PDF</a>",
+            "From the preface:",
+
+            "This project was originally going to be about margins.",
+            
+            "But if the margin is there to be at the service of the center, perhaps it is necessary to reformulate the margin—to recast both its geographical and psychological implications. Or perhaps, the goal is to reiterate the margin as ultimately unknowable, its territory ambiguous, the boundaries between its paratext and the central text unresolvably blurry. Margins, after all, only become possible objects when a political distinction is made between the margin and the center.",
+            
+            "But even this goal of ambiguity may be an act of totalization, an act of cementing the margin’s inherenty quality as something that is unknowable. We learn from Said (and, perhaps, the way that imperialism has infiltrated the most minute details of our day-to-day interactions) that the western imperialist perceives the subaltern as “knowable and unknowing”. This is the idea that through colonialism, one can conceivably understand all aspects of a culture; a culture that is perhaps too underdeveloped, immature, or ignorant to understand themselves. On the other hand, it is often the case that the well-meaning post-colonial theorist becomes complicit in an epistemological othering, and posits the subaltern as unknowable and disenfranchised from knowing. Both ultimately leave no space for the “third world woman” to speak for herself.",
+            
+            "I began this project with a desire to reposition these texts from margin to center. But I soon became paralyzed with insecurity and uneasiness that I myself, while reading and compiling all of this postcolonial feminist theory, was buying into the voyeuristic impulse of aestheticizing and fetishizing marginality and the “third world woman.” I felt uneasy even with the act of anthologizing, of bringing texts together. I felt uneasy with the possibility that I was essentializing all discourse about the “third world women” as a monolithic text block — a literal volume, with distinct boundaries.",
+            
+            "Ostensibly, the texts in this book center around the figure of the “third world woman,” but it is worth taking the time now to point out that this analytic category of “third world woman” is colonialist for two reasons: one, it is a homogenizing categorization, and ignores the huge amount of heterogeny between actual “third world women”; two, the composite “othering” of third world women helps western feminism centralize and define itself against the backdrop of a margin.",
+            
+            "While I was working on this project, someone suggested to me that this anthology is also a project about pushing back against the splintering of knowledge — through compiling these texts, I am also breaking through pay-walls, dead links, and unsearchable PDFS, to make them more accessible. And while that provided some reassurance that what I was doing wasn't totally useless, the question still remained. This act of anthologizing, of consolidation: is it perhaps more harmful than it is productive?",
         ],
     },
 
@@ -132,14 +172,8 @@ export const PROJECTS: Project[] = [
         season: 'Fall 2018',
         imgRoot: 'corpus',
         imgs: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
-            '5.jpg',
-            '6.jpg',
-            '7.jpg',
-            '8.jpg'
+            '1.jpg', '2.jpg', '3.jpg', '4.jpg',
+            '5.jpg', '6.jpg', '7.jpg', '8.jpg'
         ],
         hasVideo: false,
         videoLinks: [],
@@ -154,25 +188,13 @@ export const PROJECTS: Project[] = [
         season: 'Fall 2017',
         imgRoot: 'documenta',
         imgs: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
+            '1.jpg', '2.jpg', '3.jpg', '4.jpg',
             '1.gif',
             // '5.jpg',
             // '6.jpg',
-            '7.jpg',
-            '8.jpg',
-            '9.jpg',
-            '10.jpg',
-            '11.jpg',
-            '12.jpg',
-            '13.jpg',
-            '14.jpg',
-            '15.jpg',
-            '16.jpg',
-            '17.jpg',
-            '18.jpg'
+            '7.jpg', '8.jpg', '9.jpg', '10.jpg',
+            '11.jpg', '12.jpg', '13.jpg', '14.jpg',
+            '15.jpg', '16.jpg', '17.jpg', '18.jpg'
         ],
         hasVideo: true,
         videoLinks: ['https://tdingsun.github.io/documenta/'],
