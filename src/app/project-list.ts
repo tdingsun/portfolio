@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
         season: 'Summer 2019',
         imgRoot: 'basc',
         imgs: [
-            '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'
+            '1.jpg', '2.png', '3.jpg', '4.jpg', '5.jpg'
         ],
         hasVideo: false,
         videoLinks: [],
