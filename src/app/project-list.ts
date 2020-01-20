@@ -18,6 +18,7 @@ export const PROJECTS: Project[] = [
         hasVideo: false,
         videoLinks: [],
         description: null,
+        smallerImgs: true
     },
 
     {   name: 'I Never Want to See the Same Image Twice',
@@ -32,6 +33,37 @@ export const PROJECTS: Project[] = [
         description: [
             "<a href='http://tdingsun.github.io/dp/'>A series of 18 websites</a> that explore different ways of presenting text, narrative, and poetry in digital space. Can text be ambient? Non-linear? Performed by a website? Performed by user interaction?"
         ],
+        smallerImgs: true
+    },
+
+    {   name: 'Save Point',
+        type: 'Branding',
+        season: 'Fall 2019',
+        imgRoot: 'save-point',
+        imgs: [
+            '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png', '12.png', '13.png', '14.png', '15.png', '16.png', '17.png', '18.png', '19.png', '20.png', '21.png', '22.png'
+        ],
+        hasVideo: false,
+        videoLinks: [],
+        description: [
+            "Branding proposal for Save Point: Foundation for the Preservation of Video Games"
+        ],
+        smallerImgs: false
+    },
+
+    {   name: 'UFO Museum Branding',
+        type: 'Branding',
+        season: 'Fall 2019',
+        imgRoot: 'ufo-museum',
+        imgs: [
+            '1.png', '2.gif', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png', '11.png', '12.png', '13.png'
+        ],
+        hasVideo: false,
+        videoLinks: [],
+        description: [
+            "Branding proposal for the Roswell UFO Museum"
+        ],
+        smallerImgs: false
     },
 
     {
@@ -46,7 +78,8 @@ export const PROJECTS: Project[] = [
         videoLinks: [],
         description: [
             "Branding for the Brown Arts Student Council"
-        ]
+        ],
+        smallerImgs: false
 
     },
 
@@ -57,8 +90,7 @@ export const PROJECTS: Project[] = [
         imgRoot: 'critical-resistance',
         imgs: [
             '1.png', 'h.jpg', '2.png', '3.png', '4.png', '5.jpg',
-            'a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg', 'f.jpg',
-            'g.jpg'
+            'a.jpg', 'b.jpg', 'c.jpg', 'd.jpg', 'e.jpg'
         ],
         hasVideo: false,
         videoLinks: [],
@@ -72,7 +104,8 @@ export const PROJECTS: Project[] = [
             "More information about CR can be found at  <a href='http://criticalresistance.org' target='_blank'>criticalresistance.org</a>",
 
             "Special Thanks to <a href='https://rainawellman.com' target='_blank'>Raina Wellman</a> and <a href='https://jayoonlee.com' target='_blank'>Ja Yoon Lee</a> for modeling."
-        ]
+        ],
+        smallerImgs: false
 
     },
 
@@ -90,6 +123,7 @@ export const PROJECTS: Project[] = [
         description: [
             'Poster Series inspired by my top 10 favorite albums of 2018 (in no particular order).'
         ],
+        smallerImgs: true
     },
 
     {   name: 'A Degree of Rage, History, Her',
@@ -119,6 +153,7 @@ export const PROJECTS: Project[] = [
             
             "While I was working on this project, someone suggested to me that this anthology is also a project about pushing back against the splintering of knowledge — through compiling these texts, I am also breaking through pay-walls, dead links, and unsearchable PDFS, to make them more accessible. And while that provided some reassurance that what I was doing wasn't totally useless, the question still remained. This act of anthologizing, of consolidation: is it perhaps more harmful than it is productive?",
         ],
+        smallerImgs: false
     },
 
     {   name: 'I Guess I Hate Banter',
@@ -130,7 +165,8 @@ export const PROJECTS: Project[] = [
         videoLinks: ['https://player.vimeo.com/video/262442718'],
         description: [
             'A tale of racial frustration.'
-        ]
+        ],
+        smallerImgs: false
     },
 
     {   name: 'Sound and Vision',
@@ -165,6 +201,7 @@ export const PROJECTS: Project[] = [
             
             "Lists of sensorial words come together. Words that look good, that sound good, that smell good. In pairs, they flash on screen to create a rapid fire sequence of short 'reading events' — moments of minor synesthesia. Typeset in Corpus Regular, designed by me"
         ],
+        smallerImgs: false
     },
 
     {   name: 'Corpus',
@@ -181,6 +218,7 @@ export const PROJECTS: Project[] = [
             "Corpus is a text weight typeface based on 'Beijing Comrades,' an erotic gay novel published anonymously in China on the Internet in 1998. Its steep serifs and supple curves evoke the the danger and allure of homo-romanticism in the midst of China's rapid economic development.",
             "Email me at tiger.dingsun@gmail.com if you are interested in using this typeface!"
         ],
+        smallerImgs: true
     },
 
     {   name: 'Documenta 2022',
@@ -206,6 +244,7 @@ export const PROJECTS: Project[] = [
             
             "The <a href='https://tdingsun.github.io/documenta/'>website</a> situates the user in the middle of an expansive canvas. The user can then scroll in all directions to find the relevant information about documenta. The large red '15' in the middle is an Easter egg -- the user can click and hold on it to distort its edges."
         ],
+        smallerImgs: false
     },
 
     {   name: 'Your Body is your Greatest Treasure',
@@ -232,6 +271,7 @@ export const PROJECTS: Project[] = [
         description: [
             "A poetic interpretation of FKA Twigs' 2015 EP titled 'M3LL155X'. Through writing, I work through themes of power, body, creativity, intimacy, and feminine energy. Each copy is hand-bound with braided embroidery thread. The thread wraps around your finger and you forge an intimate connection with the book itself. The pages are bound in a way that reveals the inner pages. RISO Printed. "
         ],
+        smallerImgs: false
     },
 
     {   name: 'In The Mood for Love',
@@ -250,6 +290,7 @@ export const PROJECTS: Project[] = [
         description: [
             "Branding for an exhibition called In the Mood for Love, featuring artists from the Asian Diaspora. Curated by Tinan Nguyen, Emi Chun, and Christine Cho. Photographs by Aayushi Khowala"
         ],
+        smallerImgs: false
     },
 
     {   name: 'A Lexicon of Hesitation',
@@ -262,8 +303,10 @@ export const PROJECTS: Project[] = [
         hasVideo: false,
         videoLinks: [],
         description: [
-            "A poster created for a performance created with <a href='http://www.federicoperezvilloro.com'>Federico Perez Villoro</a>. Illustrations by <a href='https://cargocollective.com/anarivera'>Ana Rivera</a>, Typography by me."
+            "A poster created for a performance created with <a href='http://www.federicoperezvilloro.com'>Federico Perez Villoro</a>. Illustrations by <a href='https://cargocollective.com/anarivera'>Ana Rivera</a>, Typography by me.",
+            "Performed/Displayed at Paul Kasmin Gallery (NYC) in the summer of 2018, as part of the exhibition 'Almost Solid Light: New Work From Mexico.'"
         ],
+        smallerImgs: false
     },
 
     {   name: 'Notes on Western Queerness',
@@ -293,6 +336,7 @@ export const PROJECTS: Project[] = [
 
             "Adapted poster related for the project done for the 2019 Dual Degree Exhibition"
         ],
+        smallerImgs: false
     },
 
     {   name: 'It Slowly Renders a Fire',
@@ -326,6 +370,7 @@ export const PROJECTS: Project[] = [
             "<blockquote><i>My whole Oeuvre</i></blockquote>",
             "<blockquote><i>Is against the police.</i></blockquote>"
         ],
+        smallerImgs: true
     },
 
     {   name: 'True North',
@@ -347,6 +392,7 @@ export const PROJECTS: Project[] = [
 
             "This project was on display in an exhibition called <i>Seoul – SeeYouTomorrow – Pyongyang</i> at Dongdaemun Design Plaza, Seoul, Korea in Seoul, September 2018."
         ],
+        smallerImgs: false
     },
 
     {   name: 'Uncommon Sense',
@@ -397,6 +443,7 @@ export const PROJECTS: Project[] = [
 
 
         ],
+        smallerImgs: true
     },
 
     {   name: 'Milk and Fresh Snow',
@@ -487,12 +534,10 @@ export const PROJECTS: Project[] = [
         videoLinks: ['https://tdingsun.github.io/ds2_final/'],
         description: [
             "This is a collection of text and image fragments that all center around whiteness and race. The writing is original, and the images are taken from the internet. The project takes on two forms:",
-            "a <a href='http://tdingsun.github.io/ds2_final/'>web-based archive</a> through which viewers can drag around and flip virtual cards, and a physical archive consisting of various print media.",
-            "I felt kind of uncomfortable when I was presenting or talking about this project to white people, but I think that sort of discomfort is something that I have to push through.",
-            "Racial discourse often focuses on the non-white other. By turning attention on whiteness itself, I hope to make whiteness no longer invisible, and to encourage white people to talk about race amongst themselves, without necessarily needing the emotional labor of people of color to explain things to them. I really tried hard to have a generous attitude, but throughout the writing process, I wondered if it came off as patronizing. Is it okay to be patronizing to white people?",
-            "I’m still really interested in the idea of love as radical politics, separate from notions of affective ties of kinship. But is choosing to love your oppressor really the right choice? I don’t know… It’s definitely not fair, but I just think that, although it isn’t fair, most of the burdens and labor in the fight towards racial justice will fall on people of color. Because if we don’t take that up, who will do it for us?",
-            "White people who truly care (or think they care) need to realize that because they were born under the auspices of the system that was created for them, that also means that they were born with a responsibility to fight for racial justice."
+            "a <a href='http://tdingsun.github.io/ds2_final/'>digital archive</a> through which viewers can drag around and flip virtual cards, and a physical archive consisting of various print media.",
+            "Racial discourse often focuses on the non-white other. By turning attention on whiteness itself, I hope to make whiteness no longer invisible, and to encourage white people to talk about race amongst themselves, without necessarily needing the emotional labor of people of color to explain things to them."
         ],
+        smallerImgs: true
     },
 
     {   name: 'On the Media',
@@ -523,6 +568,7 @@ export const PROJECTS: Project[] = [
             "The website is responsive and works in both mobile and desktop sizes."
 
         ],
+        smallerImgs: false
     },
 
 ]

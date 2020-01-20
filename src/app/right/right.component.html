@@ -2,8 +2,8 @@
     <div *ngIf="project.hasVideo">
         <iframe  *ngFor="let link of project.videoLinks" [src]="link | safe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
-    <app-static-img *ngFor="let img of project.imgs" [imgroot]=project.imgRoot [img]=img (click)="onClickImg(img)"></app-static-img>
-   
+
+    <app-static-img *ngFor="let img of project.imgs" [imgroot]=project.imgRoot [img]=img [smallerImgs]=project.smallerImgs (click)="onClickImg(img)"></app-static-img>
     <div class="lightBox" *ngIf="selectedImg" [@inOutAnimation] (click)="onClickLightBox()">
         <img src="../../assets/{{project.imgRoot}}/{{selectedImg}}">
     </div>

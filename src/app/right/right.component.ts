@@ -29,7 +29,6 @@ export class RightComponent implements OnInit {
   }
   
   scrollUp() {
-    console.log('ihiii');
     var posInterval = window.pageYOffset/20;
     let scrollToTop = window.setInterval(() => {
       let pos = window.pageYOffset;

@@ -49,7 +49,7 @@ export class LeftComponent implements OnInit {
 
   shuffleImages(): void {
     var array = [];
-    for (let i = 1; i <= 27; i++){
+    for (let i = 1; i <= 17; i++){
       array.push(i + ".jpg");
     }
     for (let i = array.length -1; i > 0; i--) {

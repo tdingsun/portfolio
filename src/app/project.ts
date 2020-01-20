@@ -7,4 +7,5 @@ export class Project {
     hasVideo: boolean;
     videoLinks: string[];
     description: string[];
+    smallerImgs: boolean;
 }

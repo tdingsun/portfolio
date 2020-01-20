@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-static-img',
@@ -8,6 +8,7 @@ import { Component, Input } from '@angular/core';
 export class StaticImgComponent {
   @Input() imgroot: string;
   @Input() img: string;
+  @Input() smallerImgs: boolean;
   constructor() { }
 
   ngOnInit() {

@@ -1,14 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'mixins';
 
-$main-color: cornflowerblue;
-
-
 body, html {
     margin: 0;
     padding: 0;
     color: $main-color;
     font-family: sans-serif;
+    background-color: $background-color;
     @include for-size(phone-only) {
         font-size: 14px;
     }
@@ -36,15 +34,22 @@ p {
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: white;
+    align-items: center;
+    background-color: $background-color;
     right: 0;
     top: 0;
     & img {
         height: auto!important;
         width: auto!important;
-        max-width: 100vw;
-        max-height: 100vh;
-        object-fit: contain;
+        max-width: calc(100% - 100px);
+        max-height: calc(100vh - 100px);
+        margin: 50px;
+        @include for-size(phone-only) {
+            margin: 0px;
+            max-width: 100vw;
+            max-height: 100vh;
+        }
+        @include mboxshadow(3);
 
     }
 }

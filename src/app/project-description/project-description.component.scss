@@ -1,9 +1,9 @@
 @import '../../mixins';
 
 .project-description {
-    background-color: white;
     width: 100%;
-    height: calc(55vh - 120px);
+    max-height: 40vh;
+
     overflow-y: scroll;
     border-width: 0 0 1px 0;
     padding: 10px;
@@ -11,6 +11,8 @@
         height: auto;
         max-height: 30vh;
     }
+
+    transition: height 0.5s ease;
 }
 
 p {
