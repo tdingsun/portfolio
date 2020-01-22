@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges } from '@angular/core';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 import { Animations } from '../animations';
@@ -9,7 +9,7 @@ import { Animations } from '../animations';
   styleUrls: ['./right.component.scss'],
   animations: [Animations.inOutAnimation]
 })
-export class RightComponent implements OnInit {
+export class RightComponent implements OnInit, OnChanges {
   project: Project;
   selectedImg: string;
   padding: number;
@@ -18,6 +18,10 @@ export class RightComponent implements OnInit {
 
   ngOnInit() {
     this.projectService.currentProject.subscribe(project => this.project = project);
+  }
+
+  ngOnChanges(){
+    this.project = null;
   }
 
   onClickImg(img: string): void{
