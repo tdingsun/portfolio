@@ -67,22 +67,22 @@ export const PROJECTS: Project[] = [
         smallerImgs: false
     },
 
-    {
-        name: 'BASC',
-        type: 'Branding',
-        season: 'Summer 2019',
-        imgRoot: 'basc',
-        imgs: [
-            '1.jpg', '2.png', '3.jpg', '4.jpg', '5.jpg'
-        ],
-        hasVideo: false,
-        videoLinks: [],
-        description: [
-            "Branding for the Brown Arts Student Council"
-        ],
-        smallerImgs: false
+    // {
+    //     name: 'BASC',
+    //     type: 'Branding',
+    //     season: 'Summer 2019',
+    //     imgRoot: 'basc',
+    //     imgs: [
+    //         '1.jpg', '2.png', '3.jpg', '4.jpg', '5.jpg'
+    //     ],
+    //     hasVideo: false,
+    //     videoLinks: [],
+    //     description: [
+    //         "Branding for the Brown Arts Student Council"
+    //     ],
+    //     smallerImgs: false
 
-    },
+    // },
 
     {
         name: 'Critical Resistance Re-branding',
@@ -151,10 +151,10 @@ export const PROJECTS: Project[] = [
             "I began this project with a desire to reposition these texts from margin to center. But I soon became paralyzed with insecurity and uneasiness that I myself, while reading and compiling all of this postcolonial feminist theory, was buying into the voyeuristic impulse of aestheticizing and fetishizing marginality and the “third world woman.” I felt uneasy even with the act of anthologizing, of bringing texts together. I felt uneasy with the possibility that I was essentializing all discourse about the “third world women” as a monolithic text block — a literal volume, with distinct boundaries.",
             
             "Ostensibly, the texts in this book center around the figure of the “third world woman,” but it is worth taking the time now to point out that this analytic category of “third world woman” is colonialist for two reasons: one, it is a homogenizing categorization, and ignores the huge amount of heterogeny between actual “third world women”; two, the composite “othering” of third world women helps western feminism centralize and define itself against the backdrop of a margin.",
-            
+             
             "While I was working on this project, someone suggested to me that this anthology is also a project about pushing back against the splintering of knowledge — through compiling these texts, I am also breaking through pay-walls, dead links, and unsearchable PDFS, to make them more accessible. And while that provided some reassurance that what I was doing wasn't totally useless, the question still remained. This act of anthologizing, of consolidation: is it perhaps more harmful than it is productive?",
         ],
-        smallerImgs: false
+        smallerImgs: true
     },
 
     {   name: 'I Guess I Hate Banter',
@@ -280,11 +280,7 @@ export const PROJECTS: Project[] = [
         season: 'Fall 2018',
         imgRoot: 'in-the-mood-for-love',
         imgs: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
-            '5.jpg',
+            '1.jpeg', '2.jpeg', '3.jpeg', '4.jpeg', '5.jpeg', '6.jpeg', '7.jpeg'
         ],
         hasVideo: false,
         videoLinks: [],
@@ -337,7 +333,7 @@ export const PROJECTS: Project[] = [
 
             "Adapted poster related for the project done for the 2019 Dual Degree Exhibition"
         ],
-        smallerImgs: false
+        smallerImgs: true
     },
 
     {   name: 'It Slowly Renders a Fire',
@@ -350,8 +346,6 @@ export const PROJECTS: Project[] = [
             '3.jpg',
             '4.jpg',
             '5.jpg',
-            '6.jpg',
-            '7.jpg',
         ],
         hasVideo: false,
         videoLinks: [],
@@ -393,7 +387,7 @@ export const PROJECTS: Project[] = [
 
             "This project was on display in an exhibition called <i>Seoul – SeeYouTomorrow – Pyongyang</i> at Dongdaemun Design Plaza, Seoul, Korea in Seoul, September 2018."
         ],
-        smallerImgs: false
+        smallerImgs: true
     },
 
     {   name: 'Uncommon Sense',

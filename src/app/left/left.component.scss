@@ -79,9 +79,8 @@ li {
 
 }
 
-#about-container {
+#about-container:hover {
     cursor: pointer;
-    
 }
 
 #about-hook {
@@ -89,5 +88,6 @@ li {
 
     &:hover {
         font-style: italic;
+        cursor: pointer;
     }
 }
