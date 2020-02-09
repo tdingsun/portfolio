@@ -26,6 +26,8 @@ export class LazyloadDirective implements OnChanges{
           obs.unobserve(this.el.nativeElement);
         }
       });
+    }, {
+      rootMargin: '500px'
     });
     obs.observe(this.el.nativeElement);
   }
