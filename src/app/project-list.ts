@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
         season: 'Ongoing',
         imgRoot: 'misc-posters',
         imgs: [
-            '1.jpg', '2.png', 'd.jpg', 'g.jpg', 'h.jpg', 'i.jpg', 'f.jpg',
+            'j.jpg', '1.jpg', '2.png', 'd.jpg', 'g.jpg', 'h.jpg', 'i.jpg', 'f.jpg',
             'a.jpg', 'b.jpg', '4.jpg',
             '3.jpg', 'c.jpg', '5.jpg',
             '6.jpg', '7.jpg', '8.jpg', '9.jpg',
@@ -32,7 +32,9 @@ export const PROJECTS: Project[] = [
         hasVideo: true,
         videoLinks: ['https://tdingsun.github.io/dp/'],
         description: [
-            "<a href='http://tdingsun.github.io/dp/'>A series of 18 websites</a> that explore different ways of presenting text, narrative, and poetry in digital space. Can text be ambient? Non-linear? Performed by a website? Performed by user interaction?"
+            "<a href='http://tdingsun.github.io/dp/'>A series of 18 websites</a> that explore different ways of presenting text, narrative, and poetry in digital space. Can text be ambient? Non-linear? Performed by a website? Performed by user interaction?",
+
+            "<a href='../../assets/dp/dpbook_final.pdf' target='_blank'>PDF of print documentation</a>"
         ],
         smallerImgs: true
     },
