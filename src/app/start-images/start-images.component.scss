@@ -1,0 +1,18 @@
+@import '../../mixins';
+
+#about-images {
+    border-width: 0;
+    width: 100%;
+    padding: 25px;
+
+    & img {
+        height: auto!important;
+        width: auto!important;
+        max-width: calc(100vw - 100px);
+        max-height: calc(100vh - 100px);
+        object-fit: contain;
+        float: right;
+        margin: 25px;
+        @include mboxshadow(1);
+    }
+}

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 
@@ -8,13 +8,11 @@ import { ProjectService } from '../project.service';
   styleUrls: ['./project-description.component.scss']
 })
 export class ProjectDescriptionComponent implements OnInit {
-  project: Project;
+  @Input() project: Project;
   allowedHeight: number;
   constructor(private projectService: ProjectService) { }
 
-  ngOnInit() {
-    this.projectService.currentProject.subscribe(project => this.project = project);
-    
+  ngOnInit() {    
   }
 
 }

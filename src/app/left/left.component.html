@@ -1,7 +1,3 @@
-<div id="about-images" *ngIf="!selectedProject" [@inOutAnimation]>
-    <img *ngFor="let img of aboutimgs" src="./assets/about/{{img}}">
-</div>
-
 <div id="main">
     <div id="about-container" (click)="aboutClicked()">
         <p id="about-hook">Tiger Dingsun</p>
@@ -28,5 +24,6 @@
         </ul>
     </div>
    
-    <app-left-footer></app-left-footer>
+    <app-left-footer *ngIf="selectedProject" [project]="selectedProject"></app-left-footer>
 </div>
+

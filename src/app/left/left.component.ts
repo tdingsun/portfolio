@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 import { Animations } from '../animations';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-left',
@@ -10,54 +11,30 @@ import { Animations } from '../animations';
   animations: [Animations.inOutAnimation]
 })
 export class LeftComponent implements OnInit {
-  projects: Project[];
+  projects: Project[] = [];
   selectedProject: Project;
   showAbout = false;
-  aboutimgs = [];
 
-  constructor(private projectService: ProjectService) { }
+  constructor(private projectService: ProjectService, private router:Router, private route:ActivatedRoute) { 
+  }
 
   ngOnInit() {
-    this.getProjects();
-    this.getSelectedProject();
-    this.shuffleImages();
-  }
-
-  getProjects(): void {
-    this.projects = this.projectService.getProjects();
-  }
-
-  getSelectedProject(): void {
-    this.selectedProject = this.projectService.getSelectedProject();
+    
+    this.projectService.getProjects().subscribe({
+      next: projects => {
+        this.projects = projects;
+        this.selectedProject = projects.find(p => p.imgRoot === window.location.pathname.substring(window.location.pathname.lastIndexOf('/') + 1))
+      }
+    })
   }
 
   onSelect(project: Project): void {
     this.selectedProject = project;
-    this.projectService.setSelectedProject(this.selectedProject);
-    this.showAbout = false;
+    this.router.navigate([`/project/${project.imgRoot}`])
+
   }
 
   aboutClicked() {
-    this.projectService.setSelectedProject(null);
-    this.selectedProject = null;
-    if(this.showAbout == false){
-      this.showAbout = true;
-    } else {
-      this.showAbout = false;
-    }
+    this.showAbout = !this.showAbout
   }
-
-  shuffleImages(): void {
-    var array = [];
-    for (let i = 1; i <= 16; i++){
-      array.push(i + ".jpg");
-    }
-    for (let i = array.length -1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-
-    this.aboutimgs = array;
-  }
-
 }

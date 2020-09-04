@@ -8,6 +8,6 @@
     <button id="scrollUpBtn" (click)="scrollUp()">↑</button>
 </div>
 
-<div class="lightBox" *ngIf="selectedImg" [@inOutAnimation] (click)="onClickLightBox()">
+<div class="lightBox" *ngIf="selectedImg" (click)="onClickLightBox()">
     <img src="../../assets/{{project.imgRoot}}/{{selectedImg}}">
 </div>
