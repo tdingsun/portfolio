@@ -34,4 +34,16 @@ export class ProjectContentComponent implements OnInit {
     this.selectedImg = null;
   }
 
+  scrollUp() {
+    var posInterval = window.pageYOffset/20;
+    let scrollToTop = window.setInterval(() => {
+      let pos = window.pageYOffset;
+      if (pos > 0) {
+          window.scrollTo(0, pos - posInterval); // how far to scroll on each step
+      } else {
+          window.clearInterval(scrollToTop);
+      }
+  }, 16);
+  }
+
 }

@@ -1,4 +1,4 @@
-<div id="right" *ngIf="project" [style.padding-bottom]="padding">
+<div id="right" *ngIf="project">
     <div *ngIf="project.hasVideo">
         <iframe  *ngFor="let link of project.videoLinks" [src]="link | safe" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     </div>
