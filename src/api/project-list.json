@@ -561,37 +561,6 @@
             "Racial discourse often focuses on the non-white other. By turning attention on whiteness itself, I hope to make whiteness no longer invisible, and to encourage white people to talk about race amongst themselves, without necessarily needing the emotional labor of people of color to explain things to them."
         ],
         "smallerImgs": true
-    },
-
-    {   "name": "On the Media",
-        "type": "Branding, Web",
-        "season": "Fall 2017",
-        "imgRoot": "on-the-media",
-        "imgs": [
-            "1.jpg",
-            "2.jpg",
-            "3.jpg",
-            "4.jpg",
-            "5.jpg",
-            "6.jpg",
-            "7.jpg",
-            "8.jpg",
-            "9.jpg",
-            "10.jpg"
-        ],
-        "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/otm/index.html"],
-        "description": [
-            "A multi-medium rebranding project.",
-
-            "I reinterpreting the WNYC podcast On the Media into a series of publications as well as a <a href='http://tdingsun.github.io/otm/index.html'>responsive website.</a>",
-
-            "The idea is that a listener to the podcast can follow along to the transcript of the podcast, and easily switch from a print version to a mobile site, to a desktop site. The booklets are 4.5in by 7.5in, designed to feel portable and accessible.",
-
-            "The website is responsive and works in both mobile and desktop sizes."
-
-        ],
-        "smallerImgs": false
     }
 
 ]
