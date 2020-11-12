@@ -22,7 +22,7 @@
 
     {   "name": "Reading Machines",
         "type": "Websites",
-        "season": "Spring 2020, Ongoing",
+        "season": "Spring 2020 – Ongoing",
         "imgRoot": "rm",
         "imgs": [
         ],
@@ -35,10 +35,27 @@
         "smallerImgs": true
     },
 
+    {   "name": "Words So Beautiful To Look At",
+        "type": "Poster",
+        "season": "Spring 2020",
+        "imgRoot": "words-so-beautiful",
+        "imgs": [
+            "0.png", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"
+        ],
+        "hasVideo": true,
+        "videoLinks": [],
+        "description": [
+            "22\"x35\" RISO poster, printed by folding a large sheet of butcher paper into fourths and printing on each section separately. Printed in two editions of Teal/Fluorescent Pink, and Gold/Fluorescent Pink.",
+            "This poster is about the graphic and sensory quality of words.",
+            "Words produce meaning not only through their semiotic function to merely point to some concept in the world, but also their multisensory function, creating (weak) synesthetic relationships between the word and different colors, sounds, smells, tastes, and textures. Even the visuality of the word itself — not necessarily the typographic choices used to render it, but the actual shape of the words and base letterforms themselves — can be regarded as objects with aesthetic values. Moreover, grouping words together in order to appeal to some historical or social taxonomy or system of classification creates further resonance between, drawing from shared cultural systems of knowledge."
+        ],
+        "smallerImgs": true
+    },
+
     {   "name": "Chimeric Worlding",
         "type": "Website, Pedagogy",
-        "season": "Spring 2020, Ongoing",
-        "imgRoot": "rm",
+        "season": "Spring 2020",
+        "imgRoot": "chimeric-worlding",
         "imgs": [
         ],
         "hasVideo": true,
