@@ -35,6 +35,21 @@
         "smallerImgs": true
     },
 
+    {   "name": "Chimeric Worlding",
+        "type": "Website, Pedagogy",
+        "season": "Spring 2020, Ongoing",
+        "imgRoot": "rm",
+        "imgs": [
+        ],
+        "hasVideo": true,
+        "videoLinks": ["https://tdingsun.github.io/worlding/"],
+        "description": [
+            "<a href='https://tdingsun.github.io/worlding/'>An Essay and collection of 12 conceptual graphic design exercises</a> titled 'Chimeric Worlding: What Can Graphic Design Learn from Poetics and World-building?'",
+            "Key Words: Poetics, World-Building, Structure, Mythos, Narrative, Ambiguity, Epistemic Disobedience, Non-Teleological Reading."
+        ],
+        "smallerImgs": true
+    },
+
     {   "name": "I Never Want to See the Same Image Twice",
         "type": "Websites",
         "season": "Spring 2019",
