@@ -1,25 +1,4 @@
 [
-    {   "name": "Miscellaneous Posters",
-        "type": "Poster",
-        "season": "Ongoing",
-        "imgRoot": "misc-posters",
-        "imgs": [
-            "j.jpg", "1.jpg", "2.png", "d.jpg", "g.jpg", "h.jpg", "i.jpg", "f.jpg",
-            "a.jpg", "b.jpg", "4.jpg",
-            "3.jpg", "c.jpg", "5.jpg",
-            "6.jpg", "7.jpg", "8.jpg", "9.jpg",
-            "10.jpg", "11.jpg", "12.jpg", "13.jpg",
-            "14.jpg", "15.jpg", "16.jpg", "17.jpg",
-            "18.jpg", "19.jpg", "20.jpg", "21.jpg",
-            "22.jpg", "23.jpg", "24.jpg", "25.jpg",
-            "26.jpg", "27.jpg", "28.jpg", "29.jpg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": null,
-        "smallerImgs": true
-    },
-
     {   "name": "Reading Machines",
         "type": "Websites",
         "season": "Spring 2020 – Ongoing",
@@ -35,6 +14,58 @@
         "smallerImgs": true
     },
 
+    {   "name": "Miscellaneous Posters",
+        "type": "Poster",
+        "season": "Ongoing",
+        "imgRoot": "misc-posters",
+        "imgs": [
+            "1.jpg", "2.png", "j.jpg", "d.jpg", "g.jpg", "i.jpg", "f.jpg",
+            "a.jpg", "b.jpg", "4.jpg",
+            "3.jpg", "c.jpg", "5.jpg",
+            "6.jpg", "7.jpg", "8.jpg", "9.jpg",
+            "10.jpg", "11.jpg", "12.jpg", "13.jpg",
+            "14.jpg", "15.jpg", "16.jpg", "17.jpg",
+            "18.jpg", "19.jpg", "20.jpg", "21.jpg",
+            "22.jpg", "23.jpg", "24.jpg", "25.jpg",
+            "26.jpg", "27.jpg", "28.jpg", "29.jpg"
+        ],
+        "hasVideo": false,
+        "videoLinks": [],
+        "description": null,
+        "smallerImgs": true
+    },
+
+    {   "name": "Miscellaneous Typefaces",
+        "type": "Typeface",
+        "season": "Summer 2020 – Ongoing",
+        "imgRoot": "misc-type",
+        "imgs": [ "1.png", "2.png", "3.png"
+        ],
+        "hasVideo": false,
+        "videoLinks": [],
+        "description": [
+            "Typefaces created during the summer during lockdown. Somewhat of a work in progress.",
+            "To inqure about use, email tiger.dingsun@gmail.com"
+        ],
+        "smallerImgs": true
+    },
+
+    {   "name": "Cross Chancery",
+        "type": "Typeface",
+        "season": "Spring 2020",
+        "imgRoot": "cross-chancery",
+        "imgs": [ "0.png", "1.png", "2.png", "3.png", "4.png", "5.png", "6.png"
+        ],
+        "hasVideo": true,
+        "videoLinks": ["https://tdingsun.github.io/web-type/chancery/"],
+        "description": [
+            "<a href='https://tdingsun.github.io/web-type/chancery/'>A variable typeface</a> based on the idea of pixellating a traditional chancery typeface.",
+            "The typeface varies on two axes: 1) The pixel shape interpolates from a cross shape, a clover shape, and a spike shape. 2) The pixels themselves interpolate from the chancery formation to becoming more diffuse to becoming a box formation",
+            "To inqure about use, email tiger.dingsun@gmail.com"
+        ],
+        "smallerImgs": true
+    },
+
     {   "name": "Words So Beautiful To Look At",
         "type": "Poster",
         "season": "Spring 2020",
@@ -42,7 +73,7 @@
         "imgs": [
             "0.png", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"
         ],
-        "hasVideo": true,
+        "hasVideo": false,
         "videoLinks": [],
         "description": [
             "22\"x35\" RISO poster, printed by folding a large sheet of butcher paper into fourths and printing on each section separately. Printed in two editions of Teal/Fluorescent Pink, and Gold/Fluorescent Pink.",
