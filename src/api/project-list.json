@@ -1,4 +1,21 @@
 [
+    {
+        "name": "Flower Fields",
+        "type": "Websites",
+        "season": "Fall 2020",
+        "imgRoot": "flower-field",
+        "imgs": [
+
+        ],
+        "hasVideo": true,
+        "videoLinks": ["https://tdingsun.github.io/flower-field/"],
+        "description": [
+            "Two clocks: ",
+            "1. <a href='http://tdingsun.github.io/flower-field/'>Flower Field</a>",
+            "2. <a href='http://tdingsun.github.io/pluses/'>Pluses</a>"
+        ],
+        "smallerImgs": false
+    },
     {   "name": "Reading Machines",
         "type": "Websites",
         "season": "Spring 2020 – Ongoing",
@@ -8,7 +25,7 @@
         "hasVideo": true,
         "videoLinks": ["https://tdingsun.github.io/reading-machines/"],
         "description": [
-            "<a href='http://tdingsun.github.io/reading-machines/'>An ongoing publishing platform</a> A publishing platform to reimagine established relationships between reader, text, and author, and to fully utilize the affordances the web offers in the presentation of text. Contributors are asked to submit texts that might lend themselves well to non-linear readings, which are then re-interpreted into their own websites.",
+            "<a href='http://tdingsun.github.io/reading-machines/'>An ongoing publishing platform</a> to reimagine established relationships between reader, text, and author, and to fully utilize the affordances the web offers in the presentation of text. Contributors are asked to submit texts that might lend themselves well to non-linear readings, which are then re-interpreted into their own websites.",
             "If you are interested in contributing, inquire by emailing tiger.dingsun@gmail.com"
         ],
         "smallerImgs": true

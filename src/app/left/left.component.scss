@@ -19,8 +19,8 @@
 }
 
 .selected {
-    text-indent: -35px;
-    list-style: none;
+    font-weight: bold;
+    letter-spacing: -0.5px;
 }
 
 div {
@@ -39,9 +39,11 @@ ul {
 }
 
 li {
+    padding: 0.5px 0;
     &:hover {
-        font-style: italic;
         cursor: pointer;
+        font-weight: bold;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -49,8 +51,6 @@ li {
     padding-left: 35px;
     border-width: 0;
 }
-
-
 
 #projects-container {
     height: auto;

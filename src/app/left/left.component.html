@@ -20,8 +20,11 @@
                 (click)="onSelect(project)" 
                 [class.selected]="project === selectedProject">
                     {{ project.name }}
+                    <app-project-description *ngIf="project === selectedProject" [project]=project></app-project-description>
+
                 </li>
         </ul>
+        
     </div>
    
     <app-left-footer *ngIf="selectedProject" [project]="selectedProject"></app-left-footer>

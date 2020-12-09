@@ -7,6 +7,7 @@ body, html {
     color: $main-color;
     font-family: sans-serif;
     background-color: $background-color;
+    font-size: 18px;
     @include for-size(phone-only) {
         font-size: 14px;
     }
