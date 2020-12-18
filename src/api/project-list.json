@@ -1,5 +1,20 @@
 [
     {
+        "name": "LP—20x20",
+        "type": "Website",
+        "season": "Fall 2020",
+        "imgRoot": "lp20x20",
+        "imgs": [
+
+        ],
+        "hasVideo": true,
+        "videoLinks": ["https://tdingsun.github.io/lp20x20/"],
+        "description": [
+            "<a href='https://tdingsun.github.io/lp20x20/'>A Website</a> I made for 20 friends to share 20 songs they discovered in 2020. Built using Angular"
+        ],
+        "smallerImgs": false
+    },
+    {
         "name": "Flower Fields",
         "type": "Websites",
         "season": "Fall 2020",
