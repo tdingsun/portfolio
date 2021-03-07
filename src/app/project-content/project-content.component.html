@@ -9,5 +9,5 @@
 </div>
 
 <div class="lightBox" *ngIf="selectedImg" (click)="onClickLightBox()">
-    <img src="../../assets/{{project.imgRoot}}/{{selectedImg}}">
+    <img src="../../assets/{{project.imgRoot}}/{{selectedImg}}" loading="lazy">
 </div>
