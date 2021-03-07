@@ -17,7 +17,7 @@ export class StartImagesComponent implements OnInit {
   shuffleImages(): void {
     var array = [];
     array.push("1.png");
-    for (let i = 1; i <= 20; i++){
+    for (let i = 1; i <= 18; i++){
       array.push(i + ".jpg");
     }
     for (let i = array.length -1; i > 0; i--) {
