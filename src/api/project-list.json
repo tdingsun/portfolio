@@ -1,6 +1,5 @@
 [
-    {
-        "name": "LP—20x20",
+    {   "name": "LP—20x20",
         "type": "Website",
         "season": "Fall 2020",
         "imgRoot": "lp20x20",
@@ -14,8 +13,7 @@
         ],
         "smallerImgs": false
     },
-    {
-        "name": "Flower Fields",
+    {   "name": "Flower Fields",
         "type": "Websites",
         "season": "Fall 2020",
         "imgRoot": "flower-field",
@@ -60,21 +58,6 @@
         "hasVideo": false,
         "videoLinks": [],
         "description": null,
-        "smallerImgs": true
-    },
-
-    {   "name": "Miscellaneous Typefaces",
-        "type": "Typeface",
-        "season": "Summer 2020 – Ongoing",
-        "imgRoot": "misc-type",
-        "imgs": [ "1.png", "2.png", "3.png"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "Typefaces created during the summer during lockdown. Somewhat of a work in progress.",
-            "To inqure about use, email tiger.dingsun@gmail.com"
-        ],
         "smallerImgs": true
     },
 
@@ -172,62 +155,6 @@
         "smallerImgs": false
     },
 
-    {
-        "name": "Critical Resistance Re-branding",
-        "type": "Branding",
-        "season": "Fall 2018",
-        "imgRoot": "critical-resistance",
-        "imgs": [
-            "1.png", "h.jpg", "2.png", "3.png", "4.png", "5.jpg",
-            "a.jpg", "b.jpg", "c.jpg", "d.jpg", "e.jpg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "A speculative re-branding for the national, grassroots prison abolition organization Critial Resistance, founded by Angela Davis, Ruth Wilson Gilmore, and Rose Braz. The impetus for this re-branding was to generate fresher looking merchandise that would appeal to a Millennial / Gen-Z creative class, in order to reach out and engage with this new demographic, while also generating a profit that could go into prison abolition organizing.",
-
-            "I created a limited run of these T-shirts and tote bags, and donated all of the profits to Critical Resistance.",
-
-            "I also re-designed an existing infographic that Critical Resistance created, focusing on organizing dense information about police reform vs. police abolition in an easy to refer to manner.",
-
-            "More information about CR can be found at  <a href='http://criticalresistance.org' target='_blank'>criticalresistance.org</a>",
-
-            "Special Thanks to <a href='https://rainawellman.com' target='_blank'>Raina Wellman</a> and <a href='https://jayoonlee.com' target='_blank'>Ja Yoon Lee</a> for modeling."
-        ],
-        "smallerImgs": false
-
-    },
-
-    {   "name": "A Degree of Rage, History, Her",
-        "type": "Book",
-        "season": "Spring 2017",
-        "imgRoot": "rage",
-        "imgs": [
-            "1.jpg", "a.gif", "2.jpg", "3.jpg", "4.jpg", 
-            "5.jpg", "6.jpg", "7.jpg", "8.jpg",
-            "9.jpg", "10.jpg", "11.jpg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "<a href='../../assets/rage/a-degree-of-rage.pdf' target='_blank'>Full PDF</a>",
-            "From the preface:",
-
-            "This project was originally going to be about margins.",
-            
-            "But if the margin is there to be at the service of the center, perhaps it is necessary to reformulate the margin—to recast both its geographical and psychological implications. Or perhaps, the goal is to reiterate the margin as ultimately unknowable, its territory ambiguous, the boundaries between its paratext and the central text unresolvably blurry. Margins, after all, only become possible objects when a political distinction is made between the margin and the center.",
-            
-            "But even this goal of ambiguity may be an act of totalization, an act of cementing the margin’s inherenty quality as something that is unknowable. We learn from Said (and, perhaps, the way that imperialism has infiltrated the most minute details of our day-to-day interactions) that the western imperialist perceives the subaltern as “knowable and unknowing”. This is the idea that through colonialism, one can conceivably understand all aspects of a culture; a culture that is perhaps too underdeveloped, immature, or ignorant to understand themselves. On the other hand, it is often the case that the well-meaning post-colonial theorist becomes complicit in an epistemological othering, and posits the subaltern as unknowable and disenfranchised from knowing. Both ultimately leave no space for the “third world woman” to speak for herself.",
-            
-            "I began this project with a desire to reposition these texts from margin to center. But I soon became paralyzed with insecurity and uneasiness that I myself, while reading and compiling all of this postcolonial feminist theory, was buying into the voyeuristic impulse of aestheticizing and fetishizing marginality and the “third world woman.” I felt uneasy even with the act of anthologizing, of bringing texts together. I felt uneasy with the possibility that I was essentializing all discourse about the “third world women” as a monolithic text block — a literal volume, with distinct boundaries.",
-            
-            "Ostensibly, the texts in this book center around the figure of the “third world woman,” but it is worth taking the time now to point out that this analytic category of “third world woman” is colonialist for two reasons: one, it is a homogenizing categorization, and ignores the huge amount of heterogeny between actual “third world women”; two, the composite “othering” of third world women helps western feminism centralize and define itself against the backdrop of a margin.",
-             
-            "While I was working on this project, someone suggested to me that this anthology is also a project about pushing back against the splintering of knowledge — through compiling these texts, I am also breaking through pay-walls, dead links, and unsearchable PDFS, to make them more accessible. And while that provided some reassurance that what I was doing wasn't totally useless, the question still remained. This act of anthologizing, of consolidation: is it perhaps more harmful than it is productive?"
-        ],
-        "smallerImgs": true
-    },
-
     {   "name": "I Guess I Hate Banter",
         "type": "Video",
         "season": "Fall 2017",
@@ -290,48 +217,6 @@
             "Email me at tiger.dingsun@gmail.com if you are interested in using this typeface!"
         ],
         "smallerImgs": true
-    },
-
-    {   "name": "Your Body is your Greatest Treasure",
-        "type": "Book",
-        "season": "Spring 2018",
-        "imgRoot": "fka-twigs",
-        "imgs": [
-            "1.jpg",
-            "2.jpg",
-            "3.jpg",
-            "4.jpg",
-            "5.jpg",
-            "6.jpg",
-            "7.jpg",
-            "8.jpg",
-            "9.jpg",
-            "10.jpg",
-            "11.jpg",
-            "12.jpg",
-            "13.jpg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "A poetic interpretation of FKA Twigs' 2015 EP titled 'M3LL155X'. Through writing, I work through themes of power, body, creativity, intimacy, and feminine energy. Each copy is hand-bound with braided embroidery thread. The thread wraps around your finger and you forge an intimate connection with the book itself. The pages are bound in a way that reveals the inner pages. RISO Printed. "
-        ],
-        "smallerImgs": false
-    },
-
-    {   "name": "In The Mood for Love",
-        "type": "Branding",
-        "season": "Fall 2018",
-        "imgRoot": "in-the-mood-for-love",
-        "imgs": [
-            "1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "Branding for an exhibition called In the Mood for Love, featuring artists from the Asian Diaspora. Curated by Tinan Nguyen, Emi Chun, and Christine Cho. Photographs by Aayushi Khowala"
-        ],
-        "smallerImgs": false
     },
 
     {   "name": "A Lexicon of Hesitation",
