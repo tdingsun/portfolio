@@ -1,5 +1,5 @@
-$main-color: darkslategray;
-$background-color: gainsboro;
+$main-color: black;
+$background-color: white;
 
 @mixin for-size($size) {
     @if $size == phone-only {

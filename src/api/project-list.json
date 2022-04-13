@@ -1,27 +1,79 @@
 [
-    {   "name": "LP—20x20",
+    {
+        "name": "Lore",
+        "type": "Research, Writing",
+        "season": "Spring 2021 — Ongoing",
+        "imgRoot": "lore",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://otherinter.net/research/lore/"
+        ],
+        "description": [
+            "Currently researching and writing about internet lore and online cultures as part of <a href='https://otherinter.net'>Other Internet</a>. From the website:",
+            "<i>For decades, researchers have studied how online communities form shared identities and beliefs. But what about shared memories? This series explores Lore: the new modes of self-mythologization developed within network media, and the forms of history and canon stored within media artifacts that online groups produce. The memes we encounter on clearnet feeds are usually parts of larger stories, stemming from semi-private sites more conducive to worldbuilding. The affordances of different types of online space change how information is produced, circulated, and remembered across platforms. What happens when platforms enable the archival of information? What happens when they encourage collective experiences versus personal, inward-facing ones?</i>",
+            "<i>The way we remember the events that happen on the internet is different than reading a book. Information circulates and gets stored in a way that incorporates personal narratives as documentation, combining textuality with elements of oral storytelling. Bits of text and image serve as artifacts that help piece together complex narratives. The Lore Zone seeks to help us all understand new interesting ways of reading, writing, and remembering the internet.</i>"
+        ]
+    },
+    {
+        "name": "Transparencia Index",
+        "type": "Website",
+        "season": "Winter 2021",
+        "imgRoot": "transparencia",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://transparenciaindex.mx"
+        ],
+        "description": [
+            "Web Development and design for Transparencia index, a project by Federico Pérez Villoro.",
+            "This project consists of a custom-made software that automatically scrapes data from the Plataforma Nacional de Transparencia, a system through which people can request public information from the Mexican government. The software identifies existing requests associated with topics of common interest that were previously denied on the basis of containing information 'classified' by authorities. This ever-increasing flow of unanswered civic concerns are organized as an interactive website that aims to register, through labyrinthine hyperlinks, the bureaucratic opacity and strategic silence of the country's administrative institutions.",
+            "Transparencia Index is a project by Federico Pérez Villoro. The web scraper and database was developed by Agnes Cameron with graphic and interaction design by Tiger Dingsun. It was commissioned by Printed Matter + EXILE Books for NADA Miami 2021."
+        ]
+    },
+    {
+        "name": "Falsa Poesia",
+        "type": "Poster, Website",
+        "season": "Fall 2021",
+        "imgRoot": "falsa-poesia",
+        "imgs": [
+            "1.jpg",
+            "2.png",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg"
+        ],
+        "hasVideo": false,
+        "videoLinks": [],
+        "description": [
+            "Poster design and website creation for Falsa poesía: el tallo de las flores cruje, a project by Federico Pérez Villoro. The website was used in a performative reading of a body of AI-generated poetry, which is also featured on the poster."
+        ]
+    },
+    {
+        "name": "LP—20x20",
         "type": "Website",
         "season": "Fall 2020",
         "imgRoot": "lp20x20",
-        "imgs": [
-
-        ],
+        "imgs": [],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/lp20x20/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/lp20x20/"
+        ],
         "description": [
             "<a href='https://tdingsun.github.io/lp20x20/'>A Website</a> I made for 20 friends to share 20 songs they discovered in 2020. Built using Angular"
         ],
         "smallerImgs": false
     },
-    {   "name": "Flower Fields",
+    {
+        "name": "Flower Fields",
         "type": "Websites",
         "season": "Fall 2020",
         "imgRoot": "flower-field",
-        "imgs": [
-
-        ],
+        "imgs": [],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/flower-field/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/flower-field/"
+        ],
         "description": [
             "Two clocks: ",
             "1. <a href='http://tdingsun.github.io/flower-field/'>Flower Field</a>",
@@ -29,45 +81,40 @@
         ],
         "smallerImgs": false
     },
-    {   "name": "Reading Machines",
+    {
+        "name": "Reading Machines",
         "type": "Websites",
         "season": "Spring 2020 – Ongoing",
         "imgRoot": "rm",
-        "imgs": [
-        ],
+        "imgs": [],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/reading-machines/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/reading-machines/"
+        ],
         "description": [
             "<a href='http://tdingsun.github.io/reading-machines/'>An ongoing publishing platform</a> to reimagine established relationships between reader, text, and author, and to fully utilize the affordances the web offers in the presentation of text. Contributors are asked to submit texts that might lend themselves well to non-linear readings, which are then re-interpreted into their own websites.",
             "If you are interested in contributing, inquire by emailing tiger.dingsun@gmail.com"
         ],
         "smallerImgs": true
     },
-
-    {   "name": "Miscellaneous Posters",
-        "type": "Poster",
-        "season": "Ongoing",
-        "imgRoot": "misc-posters",
-        "imgs": [
-            "1.jpg", "38.jpg", "36.jpg", "35.jpg", "30.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg",
-            "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg", "17.jpg",
-            "18.jpg", "19.jpg", "20.jpg", "21.jpg", "22.jpg", "23.jpg", "24.jpg", "25.jpg",
-            "26.jpg", "27.jpg", "28.jpg", "29.jpg",  "31.jpg", "32.jpg", "33.jpg",
-            "34.jpg",  "37.jpg"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": null,
-        "smallerImgs": true
-    },
-
-    {   "name": "Cross Chancery",
+    {
+        "name": "Cross Chancery",
         "type": "Typeface",
         "season": "Spring 2020",
         "imgRoot": "cross-chancery",
-        "imgs": [ "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "0.png"],
+        "imgs": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "0.png"
+        ],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/web-type/chancery/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/web-type/chancery/"
+        ],
         "description": [
             "<a href='https://tdingsun.github.io/web-type/chancery/'>A variable typeface</a> based on the idea of pixellating a traditional chancery typeface.",
             "The typeface varies on two axes: 1) The pixel shape interpolates from a cross shape, a clover shape, and a spike shape. 2) The pixels themselves interpolate from the chancery formation to becoming more diffuse to becoming a box formation",
@@ -75,13 +122,19 @@
         ],
         "smallerImgs": true
     },
-
-    {   "name": "Words So Beautiful To Look At",
+    {
+        "name": "Words So Beautiful To Look At",
         "type": "Poster",
         "season": "Spring 2020",
         "imgRoot": "words-so-beautiful",
         "imgs": [
-            "0.png", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"
+            "0.png",
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg"
         ],
         "hasVideo": false,
         "videoLinks": [],
@@ -92,23 +145,24 @@
         ],
         "smallerImgs": true
     },
-
-    {   "name": "Chimeric Worlding",
+    {
+        "name": "Chimeric Worlding",
         "type": "Website, Pedagogy",
         "season": "Spring 2020",
         "imgRoot": "chimeric-worlding",
-        "imgs": [
-        ],
+        "imgs": [],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/worlding/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/worlding/"
+        ],
         "description": [
             "<a href='https://tdingsun.github.io/worlding/'>An Essay and collection of 12 conceptual graphic design exercises</a> titled 'Chimeric Worlding: What Can Graphic Design Learn from Poetics and World-building?'",
             "Key Words: Poetics, World-Building, Structure, Mythos, Narrative, Ambiguity, Epistemic Disobedience, Non-Teleological Reading."
         ],
         "smallerImgs": true
     },
-
-    {   "name": "I Never Want to See the Same Image Twice",
+    {
+        "name": "I Never Want to See the Same Image Twice",
         "type": "Websites",
         "season": "Spring 2019",
         "imgRoot": "dp",
@@ -116,59 +170,32 @@
             "1.jpg"
         ],
         "hasVideo": true,
-        "videoLinks": ["https://tdingsun.github.io/dp/"],
+        "videoLinks": [
+            "https://tdingsun.github.io/dp/"
+        ],
         "description": [
             "<a href='http://tdingsun.github.io/dp/'>A series of 18 websites</a> that explore different ways of presenting text, narrative, and poetry in digital space. Can text be ambient? Non-linear? Performed by a website? Performed by user interaction?",
-
             "<a href='../../assets/dp/dpbook_final.pdf' target='_blank'>PDF of print documentation</a>"
         ],
         "smallerImgs": true
     },
-
-    {   "name": "Save Point",
-        "type": "Branding",
-        "season": "Fall 2019",
-        "imgRoot": "save-point",
-        "imgs": [
-            "1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "13.png", "14.png", "15.png", "16.png", "17.png", "18.png", "19.png", "20.png", "21.png", "22.png"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "Branding proposal for Save Point: Foundation for the Preservation of Video Games"
-        ],
-        "smallerImgs": false
-    },
-
-    {   "name": "UFO Museum Branding",
-        "type": "Branding",
-        "season": "Fall 2019",
-        "imgRoot": "ufo-museum",
-        "imgs": [
-            "1.png", "2.gif", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png", "10.png", "11.png", "12.png", "13.png", "14.png", "15.png", "16.png"
-        ],
-        "hasVideo": false,
-        "videoLinks": [],
-        "description": [
-            "Branding proposal for the Roswell UFO Museum"
-        ],
-        "smallerImgs": false
-    },
-
-    {   "name": "I Guess I Hate Banter",
+    {
+        "name": "I Guess I Hate Banter",
         "type": "Video",
         "season": "Fall 2017",
         "imgRoot": "banter",
         "imgs": [],
         "hasVideo": true,
-        "videoLinks": ["https://player.vimeo.com/video/262442718"],
+        "videoLinks": [
+            "https://player.vimeo.com/video/262442718"
+        ],
         "description": [
             "A tale of racial frustration."
         ],
         "smallerImgs": false
     },
-
-    {   "name": "Sound and Vision",
+    {
+        "name": "Sound and Vision",
         "type": "Video, Sound",
         "season": "Winter 2019",
         "imgRoot": "sound-vision",
@@ -182,33 +209,31 @@
         ],
         "description": [
             "Work created with Max/MSP during Winter 2019",
-
             "<i>1. Unincorporated Territory</i>",
-            
             "Based on the movie Brokeback Mountain, two separate texts of different lengths cycle through on the top and bottom of the videos, constantly creating new meanings. The subjectivity of the cowboy is interesting to me because it seems to be the locus of both colonial fantasy and homoeroticism.",
-
             "<i>2. Ancient Forgotten Animal Vines</i>",
-
             "Music created with a custom arpeggiator made in Max/MSP. Meant to be paired with an endless stream of vine compilations on youtube.",
-            
             "<i>3. A Day at the Beach</i>",
-            
             "An instrument for reading and writing semi-improvisationally. The three windows are dragged and resized to reveal more of the text that exists on an underlying hidden matrix. The performer is meant to constantly reposition the windows to create new tones and new meanings, while also writing in a loose way that responds to the text that is already on the screen.",
-            
             "<i>4. One Common Red Flat Sharp</i>",
-            
             "Lists of sensorial words come together. Words that look good, that sound good, that smell good. In pairs, they flash on screen to create a rapid fire sequence of short 'reading events' — moments of minor synesthesia. Typeset in Corpus Regular, designed by me"
         ],
         "smallerImgs": false
     },
-
-    {   "name": "Corpus",
+    {
+        "name": "Corpus",
         "type": "Typeface",
         "season": "Fall 2018",
         "imgRoot": "corpus",
         "imgs": [
-            "1.jpg", "2.jpg", "3.jpg", "4.jpg",
-            "5.jpg", "6.jpg", "7.jpg", "8.jpg"
+            "1.jpg",
+            "2.jpg",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg",
+            "7.jpg",
+            "8.jpg"
         ],
         "hasVideo": false,
         "videoLinks": [],
@@ -218,8 +243,8 @@
         ],
         "smallerImgs": true
     },
-
-    {   "name": "A Lexicon of Hesitation",
+    {
+        "name": "A Lexicon of Hesitation",
         "type": "Poster",
         "season": "Summer 2018",
         "imgRoot": "lexicon-of-hesitation",
@@ -233,5 +258,48 @@
             "Performed/Displayed at Paul Kasmin Gallery (NYC) in the summer of 2018, as part of the exhibition 'Almost Solid Light: New Work From Mexico.'"
         ],
         "smallerImgs": false
+    },
+    {
+        "name": "Miscellaneous Posters",
+        "type": "Poster",
+        "season": "Ongoing",
+        "imgRoot": "misc-posters",
+        "imgs": [
+            "33.png",
+            "32.png",
+            "30.png",
+            "31.png",
+            "29.png",
+            "27.jpg",
+            "28.png",
+            "26.jpg",
+            "23.jpg",
+            "24.jpg",
+            "25.jpg",
+            "22.jpg",
+            "18.jpg",
+            "19.jpg",
+            "20.jpg",
+            "21.jpg",
+            "16.jpg",
+            "17.jpg",
+            "14.jpg",
+            "15.jpg",
+            "12.jpg",
+            "13.jpg",
+            "11.jpg",
+            "10.jpg",
+            "9.jpg",
+            "8.jpg",
+            "7.jpg",
+            "6.jpg",
+            "5.jpg",
+            "4.jpg",
+            "3.jpg"
+        ],
+        "hasVideo": false,
+        "videoLinks": [],
+        "description": null,
+        "smallerImgs": true
     }
 ]

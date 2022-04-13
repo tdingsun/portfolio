@@ -5,28 +5,21 @@
             <p>Brown | RISD Dual Degree 2020</p>
             <p>→ Sc.B Computer Science</p>
             <p>→ BFA Graphic Design</p>
-            <br>
-            <p>Graphic Designer, Front-End Developer, Editor. <br>Interested in text of all forms and capacities.</p>
-            <br>
+            <p>Web developer, graphic designer, writer <br>Interested in text of all forms and capacities. <br>More at <a href='https://otherinter.net/research/lore/' target="_blank">Other Internet</a></p>
             <a href="../../assets/tiger-dingsun-resume.pdf" target="_blank">Resume</a>
-            <p> </p>
+            <p></p>
         </div>
-        
+
     </div>
     <div id="projects-container">
-        <p>Projects</p>
         <ul>
-                <li *ngFor="let project of projects" 
-                (click)="onSelect(project)" 
+            <li *ngFor="let project of projects" (click)="onSelect(project)"
                 [class.selected]="project === selectedProject">
-                    {{ project.name }}
-                    <app-project-description *ngIf="project === selectedProject" [project]=project></app-project-description>
-
-                </li>
+                {{ project.name }}
+                <app-project-description *ngIf="project === selectedProject" [project]=project>
+                </app-project-description>
+            </li>
         </ul>
-        
     </div>
-   
     <app-left-footer *ngIf="selectedProject" [project]="selectedProject"></app-left-footer>
 </div>
-

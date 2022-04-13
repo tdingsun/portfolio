@@ -29,8 +29,18 @@ export class LeftComponent implements OnInit {
   }
 
   onSelect(project: Project): void {
-    this.selectedProject = project;
-    this.router.navigate([`/project/${project.imgRoot}`])
+    if(this.selectedProject === project) {
+      console.log('here');
+      console.log(this.route);
+      this.selectedProject = null;
+
+      this.router.navigateByUrl('/index');
+
+    } else {
+      this.selectedProject = project;
+      this.router.navigate([`/project/${project.imgRoot}`])
+    }
+
   }
 
   aboutClicked() {

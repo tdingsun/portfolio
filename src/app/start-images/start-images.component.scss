@@ -8,14 +8,12 @@
     & img {
         height: auto!important;
         width: auto!important;
-        max-width: calc(100vw - 20px);
+        max-width: calc(200px);
         max-height: calc(100vh - 20px);
         object-fit: contain;
         float: right;
         @include mboxshadow(1);
         margin: 5px;
-        border-radius: 10px;
-
     }
 
     & .fixed {
