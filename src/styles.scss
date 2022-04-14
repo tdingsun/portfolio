@@ -64,7 +64,7 @@ iframe {
 
     @include for-size(phone-only) {
         width: 100vw;
-        height: 67.708vw;
+        height: calc(100vh - 54px);
     }
 }
 
