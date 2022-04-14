@@ -2,6 +2,8 @@
 
 #right {
     float: right;
+    height: 100vh;
+    overflow: auto;
     width: calc(100vw - 300px);
     border-width: 0 0 0 0;
     font-size: 0px;
