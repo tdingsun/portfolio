@@ -6,10 +6,6 @@
     font-weight: normal;
     padding: 10px 20px 10px 0px;
     margin: 0;
-    @include for-size(phone-only){
-        height: auto;
-        max-height: 30vh;
-    }
 
     transition: height 0.5s ease;
     border-width: 1px 0 1px 0;

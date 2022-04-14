@@ -10,9 +10,7 @@
             "https://otherinter.net/research/lore/"
         ],
         "description": [
-            "Currently researching and writing about internet lore and online cultures as part of <a href='https://otherinter.net'>Other Internet</a>. From the website:",
-            "<i>For decades, researchers have studied how online communities form shared identities and beliefs. But what about shared memories? This series explores Lore: the new modes of self-mythologization developed within network media, and the forms of history and canon stored within media artifacts that online groups produce. The memes we encounter on clearnet feeds are usually parts of larger stories, stemming from semi-private sites more conducive to worldbuilding. The affordances of different types of online space change how information is produced, circulated, and remembered across platforms. What happens when platforms enable the archival of information? What happens when they encourage collective experiences versus personal, inward-facing ones?</i>",
-            "<i>The way we remember the events that happen on the internet is different than reading a book. Information circulates and gets stored in a way that incorporates personal narratives as documentation, combining textuality with elements of oral storytelling. Bits of text and image serve as artifacts that help piece together complex narratives. The Lore Zone seeks to help us all understand new interesting ways of reading, writing, and remembering the internet.</i>"
+            "Currently researching and writing about internet lore and online cultural production as part of <a href='https://otherinter.net'>Other Internet</a>."
         ]
     },
     {
@@ -26,9 +24,7 @@
             "https://transparenciaindex.mx"
         ],
         "description": [
-            "Web Development and design for Transparencia index, a project by Federico Pérez Villoro.",
-            "This project consists of a custom-made software that automatically scrapes data from the Plataforma Nacional de Transparencia, a system through which people can request public information from the Mexican government. The software identifies existing requests associated with topics of common interest that were previously denied on the basis of containing information 'classified' by authorities. This ever-increasing flow of unanswered civic concerns are organized as an interactive website that aims to register, through labyrinthine hyperlinks, the bureaucratic opacity and strategic silence of the country's administrative institutions.",
-            "Transparencia Index is a project by Federico Pérez Villoro. The web scraper and database was developed by Agnes Cameron with graphic and interaction design by Tiger Dingsun. It was commissioned by Printed Matter + EXILE Books for NADA Miami 2021."
+            "Web Development and design for <a href='https://transparenciaindex.mx' target='_blank'>Transparencia index</a>, a project by Federico Pérez Villoro. The web scraper and database was developed by Agnes Cameron. It was commissioned by Printed Matter + EXILE Books for NADA Miami 2021."
         ]
     },
     {
@@ -43,6 +39,7 @@
             "4.jpg",
             "5.jpg"
         ],
+        "smallerImgs": true,
         "hasVideo": false,
         "videoLinks": [],
         "description": [

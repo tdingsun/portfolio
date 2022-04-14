@@ -1,21 +1,11 @@
 @import '../../mixins';
 
 #main {
-    width: 300px;
     height: 100vh;
-    position: fixed;
     border-width: 0 1px 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
-    @include for-size(phone-only){
-        width: 100%;
-        height: auto;
-        position: relative;
-    }
-
 }
 
 .selected {
@@ -33,13 +23,13 @@ p {
     padding: 5px;
 }
 
-ul {
-    list-style: decimal;
+ol {
     margin: 0 0 10px 0;
+    padding-left: 30px;
 }
 
 li {
-    padding: 0.5px 0;
+    padding: 1px 0;
     &:hover {
         cursor: pointer;
         font-weight: bold;
@@ -48,7 +38,7 @@ li {
 }
 
 .blockquote {
-    padding-left: 35px;
+    padding-left: 30px;
     border-width: 0;
 }
 
@@ -57,11 +47,7 @@ li {
     flex-grow: 2;
     overflow-y: scroll;
     overflow-x: hidden;
-
-    @include for-size(phone-only){
-        height: auto;
-    }
-
+    background-color: transparent;
 }
 
 #about-container:hover {
@@ -74,5 +60,14 @@ li {
     &:hover {
         font-style: italic;
         cursor: pointer;
+    }
+}
+
+@include for-size(phone-only){
+    #main {
+        width: 100vw;
+        height: unset;
+        position: relative;
+        display: block;
     }
 }

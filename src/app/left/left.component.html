@@ -2,24 +2,25 @@
     <div id="about-container" (click)="aboutClicked()">
         <p id="about-hook">Tiger Dingsun</p>
         <div class="blockquote" *ngIf="showAbout">
-            <p>Brown | RISD Dual Degree 2020</p>
-            <p>→ Sc.B Computer Science</p>
-            <p>→ BFA Graphic Design</p>
-            <p>Web developer, graphic designer, writer <br>Interested in text of all forms and capacities. <br>More at <a href='https://otherinter.net/research/lore/' target="_blank">Other Internet</a></p>
-            <a href="../../assets/tiger-dingsun-resume.pdf" target="_blank">Resume</a>
+            <p>Brown | RISD Dual Degree 2020<br>→ Sc.B Computer Science<br>→ BFA Graphic Design</p>
+            <p>Web developer/graphic designer<br>interested in texts of all forms and capacities.</p>
+            <p><a href="../../assets/tiger-dingsun-resume.pdf" target="_blank">Resume</a>&nbsp;&nbsp;&nbsp;<a href="mailto:tiger.dingsun@gmail.com">Email</a></p>
+            <p><a href="https://www.instagram.com/tiger.dingsun/?hl=en">IG: @tiger.dingsun</a>&nbsp;&nbsp;&nbsp;<a href="https://www.are.na/tiger-dingsun/">Are.na</a></p>
+            <p></p>
+            <p></p>
             <p></p>
         </div>
 
     </div>
     <div id="projects-container">
-        <ul>
+        <ol>
             <li *ngFor="let project of projects" (click)="onSelect(project)"
                 [class.selected]="project === selectedProject">
                 {{ project.name }}
                 <app-project-description *ngIf="project === selectedProject" [project]=project>
                 </app-project-description>
             </li>
-        </ul>
+        </ol>
     </div>
     <app-left-footer *ngIf="selectedProject" [project]="selectedProject"></app-left-footer>
 </div>

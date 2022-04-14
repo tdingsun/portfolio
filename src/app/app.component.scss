@@ -1,5 +1,29 @@
-.container {
+@import '../mixins';
+
+#container {
     width: 100vw;
+    height: 100vh;
     display: flex;
+    flex-direction: row;
+    app-left {
+        z-index: 1;
+    }
+    #left {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;
+        height: 100vh;
+        z-index: 1;
+        flex-grow: 0;
+    }
+}
+
+@include for-size(phone-only){
+    #container {
+        flex-direction: column;
+    }
+    #left {
+        width: 100vw;
+    }
 }
 

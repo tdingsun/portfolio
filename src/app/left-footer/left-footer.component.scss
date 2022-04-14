@@ -14,22 +14,16 @@
 
 #footer-left {
     width: 50%;
-    min-height: 120px;
     position: relative;
     float: left;
     border-width: 0 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @include for-size(phone-only){
-        min-height: 100px;
-    }
-    
 }
 
 #footer-right {
     width: 50%;
-    min-height: 120px;
     position: relative;
     float: right;
     border-width: 0 0 0 1px;
@@ -37,9 +31,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @include for-size(phone-only){
-        min-height: 100px;
-    }
 }
 
 p {
