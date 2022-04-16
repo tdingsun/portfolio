@@ -11,15 +11,10 @@
     align-items: flex-start;
 
     & img {
-        max-width: 100px;
-        min-width: 100px;
         max-height: calc(100vh - 20px);
         object-fit: contain;
         float: right;
         @include mboxshadow(1);
-        &:hover {
-            max-width: 250px;
-        }
         margin: 2px;
 
     }

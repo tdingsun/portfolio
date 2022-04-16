@@ -19,7 +19,7 @@ export class StartImagesComponent implements OnInit {
     for (let i = 1; i <= 136; i++){
       array.push(i + ".jpg");
     }
-    for (let i = 1; i <= 33; i++){
+    for (let i = 1; i <= 34; i++){
       array.push(i + ".png");
     }
     for (let i = array.length -1; i > 0; i--) {
