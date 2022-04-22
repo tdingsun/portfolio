@@ -14,6 +14,10 @@ export class StartImagesComponent implements OnInit {
     this.shuffleImages();
   }
 
+  mouseOver(e) {
+    e.target.classList.add("touched");
+  }
+
   shuffleImages(): void {
     var array = [];
     for (let i = 1; i <= 136; i++){

@@ -22,6 +22,9 @@
             filter: grayscale(0) contrast(1);
         }
     }
+    & .touched {
+        filter: grayscale(0) contrast(1);
+    }
     & .fixed {
         position: fixed;
         right: 0;
