@@ -16,7 +16,11 @@
         float: right;
         @include mboxshadow(1);
         margin: 2px;
+        filter: grayscale(1) contrast(100);
 
+        &:hover {
+            filter: grayscale(0) contrast(1);
+        }
     }
     & .fixed {
         position: fixed;
