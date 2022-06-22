@@ -200,7 +200,6 @@
         "hasVideo": true,
         "videoLinks": [
             "https://player.vimeo.com/video/315146234",
-            "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/560492247&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
             "https://player.vimeo.com/video/315496159",
             "https://player.vimeo.com/video/315139758"
         ],
@@ -208,11 +207,9 @@
             "Work created with Max/MSP during Winter 2019",
             "<i>1. Unincorporated Territory</i>",
             "Based on the movie Brokeback Mountain, two separate texts of different lengths cycle through on the top and bottom of the videos, constantly creating new meanings. The subjectivity of the cowboy is interesting to me because it seems to be the locus of both colonial fantasy and homoeroticism.",
-            "<i>2. Ancient Forgotten Animal Vines</i>",
-            "Music created with a custom arpeggiator made in Max/MSP. Meant to be paired with an endless stream of vine compilations on youtube.",
-            "<i>3. A Day at the Beach</i>",
+            "<i>2. A Day at the Beach</i>",
             "An instrument for reading and writing semi-improvisationally. The three windows are dragged and resized to reveal more of the text that exists on an underlying hidden matrix. The performer is meant to constantly reposition the windows to create new tones and new meanings, while also writing in a loose way that responds to the text that is already on the screen.",
-            "<i>4. One Common Red Flat Sharp</i>",
+            "<i>3. One Common Red Flat Sharp</i>",
             "Lists of sensorial words come together. Words that look good, that sound good, that smell good. In pairs, they flash on screen to create a rapid fire sequence of short 'reading events' — moments of minor synesthesia. Typeset in Corpus Regular, designed by me"
         ],
         "smallerImgs": false

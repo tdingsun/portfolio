@@ -21,9 +21,11 @@
 @include for-size(phone-only){
     #container {
         flex-direction: column;
+        #left {
+            width: 100vw;
+            height: unset;
+        }
     }
-    #left {
-        width: 100vw;
-    }
+    
 }
 
