@@ -1,4 +1,4 @@
 <div id="about-images">
     <!-- <img class="fixed" src="./assets/about/1.png">> -->
-    <img *ngFor="let img of aboutimgs" src="./assets/about/{{img}}" (mouseover)="mouseOver($event)">
+    <img *ngFor="let img of aboutimgs; let i = index" id="img-{{i}}" src="./assets/about/{{img}}" (mouseover)="mouseOver($event)" (click)="click($event)">
 </div>

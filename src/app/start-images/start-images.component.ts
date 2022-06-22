@@ -18,6 +18,11 @@ export class StartImagesComponent implements OnInit {
     e.target.classList.add("touched");
   }
 
+  click(e) {
+   console.log(e.target);
+   e.target.remove();
+  }
+
   shuffleImages(): void {
     var array = [];
     for (let i = 1; i <= 126; i++){

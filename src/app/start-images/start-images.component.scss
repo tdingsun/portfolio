@@ -4,33 +4,36 @@
     padding: 5px;
     height: 100vh;
     width: calc(100vw - 300px);
-    overflow-y: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-
-    & img {
-        max-height: calc(100vh - 20px);
-        object-fit: contain;
-        float: right;
-        @include mboxshadow(1);
-        margin: 2px;
-        filter: grayscale(1) contrast(100);
-
-        &:hover {
-            filter: grayscale(0) contrast(1);
+    @for $i from 0 to 160 {
+        #img-#{$i} {
+            top: percentage(random() * 0.4);
+            left: percentage(random() * 0.6);
+            transform-origin: center;
+            transform: translate(300px, 10px) rotate(random(50) - 25 + deg ) ;
         }
     }
-    & .touched {
-        filter: grayscale(0) contrast(1);
+
+
+    & img {
+        max-height: calc(100vh - 210px);
+        max-width: calc(100vw - 510px);
+        
+        position: absolute;
+        @include mboxshadow(3);
+        // filter: grayscale(1) contrast(100);
+        display: block;
+        margin: auto;
+        // &.touched {
+        //     filter: grayscale(0) contrast(1);
+        // }
+        margin-top: 0;
+        transition: 0.25s;
+        &:hover {
+            margin-top: 10px;
+            cursor: pointer;
+        }
     }
-    & .fixed {
-        position: fixed;
-        right: 0;
-        top: 0;
-        border-radius: 500px;
-    }
+    
 }
 
 @include for-size(phone-only){
