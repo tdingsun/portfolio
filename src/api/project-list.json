@@ -10,7 +10,7 @@
             "https://otherinter.net/research/lore/"
         ],
         "description": [
-            "Currently researching and writing about internet lore and online cultural production as part of <a href='https://otherinter.net'>Other Internet</a>."
+            "Research and writing about internet lore and online cultural production as part of <a href='https://otherinter.net'>Other Internet</a>."
         ]
     },
     {
@@ -100,12 +100,6 @@
         "season": "Spring 2020",
         "imgRoot": "cross-chancery",
         "imgs": [
-            "1.png",
-            "2.png",
-            "3.png",
-            "4.png",
-            "5.png",
-            "6.png",
             "0.png"
         ],
         "hasVideo": true,
