@@ -14,7 +14,7 @@
         ]
     },
     {
-        "name": "Unseen Garden (sound desing)",
+        "name": "Unseen Garden (sound)",
         "type": "Sound",
         "season": "Summer 2023",
         "imgRoot": "unseen-garden",
@@ -71,7 +71,7 @@
         ]
     },
     {
-        "name": "Pentameter (sound design)",
+        "name": "Pentameter (sound)",
         "type": "Sound",
         "season": "Winter 2023",
         "imgRoot": "pentameter",
