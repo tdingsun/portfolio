@@ -1,8 +1,93 @@
 [
     {
+        "name": "Notes on K-pop",
+        "type": "Writing",
+        "season": "Summer 2023",
+        "imgRoot": "notes-on-k-pop",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://syllabusproject.org/notes-on-k-pop/"
+        ],
+        "description": [
+            "An <a href='https://syllabusproject.org/notes-on-k-pop/'>essay / annotated bibliography</a> collating some thoughts about k-pop, marketing, and fandoms. Written for <a href='https://syllabusproject.org'>Syllabus Project</a>"
+        ]
+    },
+    {
+        "name": "Unseen Garden (sound desing)",
+        "type": "Sound",
+        "season": "Summer 2023",
+        "imgRoot": "unseen-garden",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://www.unseen.garden"
+        ],
+        "description": [
+            "Generative sound programming for<a href='https://www.unseen.garden'>Unseen Garden</a>, a project by Chris Hamamoto and Federico Perez Villoro. <a href='https://centrea.org/2023/07/chris-hamamoto-and-federico-perez-villoro-unseen-garden/'>More about the project here</a>."
+        ]
+    },
+    {
+        "name": "Toward Frisson",
+        "type": "Website, Posters",
+        "season": "Spring 2023",
+        "imgRoot": "toward-frisson",
+        "imgs": [ "1.jpg", "3.jpg", "2.jpg", "0.jpg"],
+        "smallerImgs": true,
+        "hasVideo": true,
+        "videoLinks": [
+            "http://tdingsun.github.io/toward-frisson/"
+        ],
+        "description": [
+            "<a href='http://tdingsun.github.io/toward-frisson/'>An archive of 2-word poems</a>, collected over several years, displayed on screen and in print. Created for <a href='https://unrealizedarchive.com/text-to-image/'>Unrealized Archive 7L Text to Image</a>, an exhibition put on by Chris Hamamoto & Jon Sueda at <a href='http://wrmatters.kr/?ckattempt=1'>wrm</a> in Seoul, Korea"
+        ]
+    },
+    {
+        "name": "Trekker / Browser",
+        "type": "Website",
+        "season": "Spring 2023",
+        "imgRoot": "trekker-browser",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://trekker.occupantfonts.com"
+        ],
+        "description": [
+            "A <a href='https://trekker.occupantfonts.com'>website / type specimen</a> created for <a href='https://occupantfonts.com'>Occupant Fonts</a> to showcase their typefaces  <a href='https://occupantfonts.com/articles/dispatches-from-the-20th-century/'>Stainless 2 and Dispatch 2</a>."
+        ]
+    },
+    {
+        "name": "ASDFGHJKLKGJL",
+        "type": "Writing",
+        "season": "Winter 2023",
+        "imgRoot": "ASDFGHJKLKGJL",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://www.are.na/blog/asdfghjkljljlkgjl"
+        ],
+        "description": [
+            "An <a href='https://www.are.na/blog/asdfghjkljljlkgjl'>essay</a> about fandoms and fan shrines for <a href='https://www.are.na'>are.na</a>. Special Thanks to Meg Miller for editing."
+        ]
+    },
+    {
+        "name": "Pentameter (sound design)",
+        "type": "Sound",
+        "season": "Winter 2023",
+        "imgRoot": "pentameter",
+        "imgs": [],
+        "hasVideo": true,
+        "videoLinks": [
+            "https://pentad.world"
+        ],
+        "description": [
+            "Sound design for <a href='https://pentad.world'>pentad.world</a>, a type specimen website for Occupant Font's typeface, Pentameter. Website designed by Laurel Schwulst. <a href='https://writings.laurel.world/seasons-in-motion/'>(Read more about it here!)</a>. Typeface and web programming by Marie Otsuka."
+        ]
+    },
+    {
         "name": "Lore",
         "type": "Research, Writing",
-        "season": "Spring 2021 — Ongoing",
+        "season": "Spring 2021 — Summer 2022",
         "imgRoot": "lore",
         "imgs": [],
         "hasVideo": true,
@@ -10,7 +95,7 @@
             "https://otherinter.net/research/lore/"
         ],
         "description": [
-            "Research and writing about internet lore and online cultural production as part of <a href='https://otherinter.net'>Other Internet</a>."
+            "<a href='https://otherinter.net/research/lore/'>Research and writing</a> about internet lore and online cultural production as part of <a href='https://otherinter.net'>Other Internet</a>."
         ]
     },
     {
@@ -100,7 +185,7 @@
         "season": "Spring 2020",
         "imgRoot": "cross-chancery",
         "imgs": [
-            "0.png"
+            "1.webp", "2.jpg", "0.png"
         ],
         "hasVideo": true,
         "videoLinks": [
@@ -109,7 +194,8 @@
         "description": [
             "<a href='https://tdingsun.github.io/web-type/chancery/'>A variable typeface</a> based on the idea of pixellating a traditional chancery typeface.",
             "The typeface varies on two axes: 1) The pixel shape interpolates from a cross shape, a clover shape, and a spike shape. 2) The pixels themselves interpolate from the chancery formation to becoming more diffuse to becoming a box formation",
-            "To inqure about use, email tiger.dingsun@gmail.com"
+            "To inqure about use, email tiger.dingsun@gmail.com",
+            "Cross Chancery in Use: <a href='https://djpythonnyc.bandcamp.com/album/057-schwyn'>[1]</a>, <a href='https://ra.co/events/1504176'>[2]</a>"
         ],
         "smallerImgs": true
     },
@@ -138,7 +224,7 @@
     },
     {
         "name": "Chimeric Worlding",
-        "type": "Website, Pedagogy",
+        "type": "Website, Writing",
         "season": "Spring 2020",
         "imgRoot": "chimeric-worlding",
         "imgs": [],
@@ -154,7 +240,7 @@
     },
     {
         "name": "I Never Want to See the Same Image Twice",
-        "type": "Websites",
+        "type": "Website",
         "season": "Spring 2019",
         "imgRoot": "dp",
         "imgs": [
@@ -170,21 +256,7 @@
         ],
         "smallerImgs": true
     },
-    {
-        "name": "I Guess I Hate Banter",
-        "type": "Video",
-        "season": "Fall 2017",
-        "imgRoot": "banter",
-        "imgs": [],
-        "hasVideo": true,
-        "videoLinks": [
-            "https://player.vimeo.com/video/262442718"
-        ],
-        "description": [
-            "A tale of racial frustration."
-        ],
-        "smallerImgs": false
-    },
+    
     {
         "name": "Sound and Vision",
         "type": "Video, Sound",
@@ -253,37 +325,33 @@
         "season": "Ongoing",
         "imgRoot": "misc-posters",
         "imgs": [
-            "33.png",
-            "32.png",
-            "30.png",
-            "31.png",
-            "29.png",
-            "27.jpg",
-            "28.png",
-            "26.jpg",
-            "23.jpg",
-            "24.jpg",
-            "25.jpg",
-            "22.jpg",
-            "18.jpg",
-            "19.jpg",
-            "20.jpg",
-            "21.jpg",
-            "16.jpg",
-            "17.jpg",
-            "14.jpg",
-            "15.jpg",
-            "12.jpg",
-            "13.jpg",
-            "11.jpg",
-            "10.jpg",
-            "9.jpg",
-            "8.jpg",
-            "7.jpg",
-            "6.jpg",
-            "5.jpg",
-            "4.jpg",
-            "3.jpg"
+            "i.png",
+            "k.png",
+            "o.png",
+            "g.jpg",
+            "l.png",
+            "ad.png",
+            "v.png",
+            "r.png",
+            "ac.png",
+            "s.jpg",
+            "t.jpg",
+            "u.jpg",
+            "p.jpg",
+            "w.jpg",
+            "x.jpg",
+            "y.jpg",
+            "c.jpg",
+            "j.jpg",
+            "d.jpg",
+            "z.jpg",
+            "aa.jpg",
+            "ab.jpg",
+            "f.jpg",
+            "m.jpg",
+            "n.jpg",
+            "q.jpg",
+            "e.jpg"
         ],
         "hasVideo": false,
         "videoLinks": [],
