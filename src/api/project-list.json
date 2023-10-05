@@ -32,7 +32,7 @@
         "type": "Website, Posters",
         "season": "Spring 2023",
         "imgRoot": "toward-frisson",
-        "imgs": [ "1.jpg", "3.jpg", "2.jpg", "0.jpg"],
+        "imgs": [ "0.jpg", "1.jpg", "3.jpg", "2.jpg"],
         "smallerImgs": true,
         "hasVideo": true,
         "videoLinks": [
